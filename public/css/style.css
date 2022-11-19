@@ -1,0 +1,170 @@
+/* CSS Document */
+section {
+	padding: 30px 0 50px;
+}
+h3.section-title {
+	margin-bottom: 40px;
+}
+.social-icons {
+	width: 42px;
+	height: 42px;
+	font-size: 18px;
+	background: #444;
+	border-radius: 21px;
+	text-align: center;
+  	padding: 6px 0;
+	line-height: 28px;
+	color: #fff;
+}
+.social-icons:hover, .social-icons:focus {
+	color: #eee;
+	background: #555;
+}
+.card {
+	margin-bottom: 30px;
+}
+#page-footer {
+	padding: 15px 0 10px;
+	font-size: 12px;
+}
+.wappler-temp {}
+.style1 {
+	background-image: url("../../../../Downloads/taylor-vick-M5tzZtFCOfs-unsplash.jpg");
+	background-color: #000c66;}
+.style2 {
+	background-image: url("../../../../Pictures/Screenshot%202022-09-30%20192103.png");
+}
+.style3 {
+	background-color: #000;
+}
+.style4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #05014d;
+}
+.style5 {
+	background-color: #072545;}
+.style6 {
+	background-color: #05014d;
+}
+.style7 {
+	background-color: #05014d;
+}
+.style8 {
+	background-color: #05014d;
+}
+.style9 {}
+.style10 {
+	background-color: #072545;
+}
+.style11 {
+	background-color: #072545;
+}
+.style12 {
+	background-color: #05014d;
+}
+.style13 {
+	background-color: #072545;
+}
+.style14 {
+	background-repeat: repeat;
+	background-size: cover;
+}
+.style15 {
+	background-color: #000424;
+}
+.style16 {}
+.style17 {
+	float: right;
+}
+.style18 {
+	background-color: #05014d;
+}
+.style19 {
+	background-color: #05014d;
+	color: #05014d;
+}
+.style20 {
+}
+.style21 {
+	line-height: 0.1rem;
+	font-size: 0.1rem;
+}
+.style22 {
+	background-image: url("../../../../Pictures/logo.png");
+}
+.style23 {
+	font-size: 10px;
+}
+.style24 {
+	margin-top: -7px;
+}
+.style25 {
+	background-color: rgba(0, 123, 255, 0);
+}
+.style26 {
+	border-width: 0px;
+}
+.style27 {
+	text-align: center;
+}
+.style28 {
+	background-color: #00012e;
+	padding-right: 15px;
+	background-size: 100% 100%;
+}
+.style29 {
+	background-color: #000;
+	border-color: #fff;
+	border-style: none;
+}
+.style26:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.style30 {
+	border-width: 0px;
+}
+.style31 {
+	background-color: #000;
+}
+.style32 {
+}
+.style33 {
+	max-width: 128px;
+}
+.style34 {
+	max-width: 120px;
+	text-align: center;
+}
+.style35 {
+	background-repeat: repeat;
+	background-size: auto;
+}
+.style36 {
+	max-width: 70px;
+	text-align: center;
+	padding-left: 0px;
+	position: relative;
+}
+.style37 {
+	max-width: 64px;
+	text-align: center;
+	position: static;
+	margin-top: 10px;
+}
+.style38 {
+	margin-top: 40px;
+}
+.style39 {
+	font-weight: bold;
+	margin-top: 10px;
+}
+.style40 {
+	margin-top: 25px;
+}
+.style41 {}
+.style42 {
+	max-width: 128px;
+	min-height: 128px;
+}

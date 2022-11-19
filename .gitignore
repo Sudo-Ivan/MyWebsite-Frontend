@@ -1,0 +1,5 @@
+node_modules
+.svn
+.wappler
+.env
+**/.DS_Store
