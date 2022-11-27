@@ -44,60 +44,10 @@
       </div>
       <div class="get-started"><span class="navbar-text3">Get started</span></div>
     </div>
-    <div>
-      <DangerousHTML
-        html="<script>
-      /*
-  Mobile menu - Code Embed
-  */
-  
-  /* listenForUrlChangesMobileMenu() makes sure that if you changes pages inside your app, 
-  the mobile menu will still work*/
-  
-  const listenForUrlChangesMobileMenu = () => {
-      let url = location.href;
-      document.body.addEventListener('click', () => {
-          requestAnimationFrame(() => {
-              if (url !== location.href) {
-                  runMobileMenuCodeEmbed();
-                  url = location.href;
-              }
-          });
-      },
-      true
-      );
-  };
-  
-  const runMobileMenuCodeEmbed = () => {
-      // Mobile menu
-      const mobileMenu = document.querySelector('#mobile-menu')
-  
-      // Buttons
-      const closeButton = document.querySelector('#close-mobile-menu')
-      const openButton = document.querySelector('#open-mobile-menu')
-  
-      // On openButton click, set the mobileMenu position left to -100vw
-      openButton && openButton.addEventListener('click', function() {
-          mobileMenu.style.transform = 'translateX(0%)'
-      })
-  
-      // On closeButton click, set the mobileMenu position to 0vw
-      closeButton && closeButton.addEventListener('click', function() {
-          mobileMenu.style.transform = 'translateX(100%)'
-      })
-  }
-  
-  runMobileMenuCodeEmbed()
-  listenForUrlChangesMobileMenu()
-  </script>"
-      ></DangerousHTML>
-    </div>
   </nav>
 </template>
 
 <script>
-import DangerousHTML from 'dangerous-html/vue'
-
 export default {
   name: 'Navbar',
   props: {
@@ -105,7 +55,7 @@ export default {
     image_src1: {
       type: String,
       default:
-        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
+        'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
     },
     image_src: {
       type: String,
@@ -121,9 +71,6 @@ export default {
         'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
     },
     rootClassName: String,
-  },
-  components: {
-    DangerousHTML,
   },
 }
 </script>
