@@ -40,6 +40,7 @@
         </div>
         <div class="home-image">
           <img
+            id="terminal"
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay01.svg"
             loading="lazy"
@@ -78,15 +79,8 @@
             <h2 class="home-heading1">Pick the right tool for the job</h2>
             <p class="home-paragraph">
               <span>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae.
-              </span>
-              <br />
-              <br />
-              <span>
-                Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                inventore veritatis et quasi architecto beatae.
+                Picking the proper programming langauge for the job is important
+                it ensure that you setup yourself for success.
               </span>
               <br />
             </p>
@@ -104,7 +98,7 @@
     <section id="aboutme" class="home-aboutme">
       <header class="home-header01">
         <span class="section-head">BUT...</span>
-        <h2 class="home-text20">Who am I?</h2>
+        <h2 class="home-text17">Who am I?</h2>
       </header>
       <section class="home-note1">
         <div class="home-content02">
@@ -112,52 +106,45 @@
             <div class="home-heading2">
               <h2 class="home-heading3 section-heading">About Me</h2>
               <p class="home-paragraph1 section-description">
-                <span class="home-text21">
+                <span class="home-text18">
                   I am Ivan Ryan, the founder and CEO of Voltaic Hosting, an
                   international provider of sustainable, secure, and private
-                  hosting solutions. A hosting company that puts users&apos;
-                  privacy and security first. We use an in-house developed web
-                  panel that does not track you, there are no ads and rely on
-                  secure CDNs.
-                  <span v-html="rawn67f"></span>
+                  hosting solutions.
+                  <span v-html="rawp2d5"></span>
+                </span>
+                <br class="home-text19" />
+                <br class="home-text20" />
+                <span class="home-text21">
+                  I am a for hire developer that specializes in developing a
+                  multitude of applications that offer exceptional scalability,
+                  performance, security, and privacy. While being fully compliant
+                  with the standards and regulations in Europe and United States.
+                  <span v-html="rawi0gh"></span>
                 </span>
                 <br class="home-text22" />
                 <br class="home-text23" />
                 <span class="home-text24">
-                  Our servers are leased from IONOS 1&amp;1 Green Datacenters and
-                  1984 Hosting in Iceland. Both providers are exceptionally
-                  reliable and offer full redundancy with fast response times.
-                </span>
-                <br class="home-text25" />
-                <br class="home-text26" />
-                <span class="home-text27">
-                  I am also a for hire developer that specializes in developing a
-                  multitude of applications that offer exceptional scalability,
-                  performance, security, and privacy. While being fully compliant
-                  with the standards and regulations in Europe and United States.
-                  <span v-html="rawfg77"></span>
-                </span>
-                <br class="home-text28" />
-                <br class="home-text29" />
-                <span class="home-text30">
                   I have held a number of professional certifications, including
                   Red Hat Certified Systems Engineer and Linux Foundation
                   Certified System Engineer. I am working on a degree in
                   Intelligence Studies at American Military University.
                 </span>
-                <br class="home-text31" />
-                <br class="home-text32" />
-                <span class="home-text33">
+                <br class="home-text25" />
+                <br class="home-text26" />
+                <span class="home-text27">
                   My goal is to help organizations and individuals by developing
                   secure, reliable, and compliant software. I am able to remote
                   code and work with the following IDEs and Code Editors: Visual
                   Studio Code, Eclipse, IntelliJ IDEA and Sublime Text.
                 </span>
-                <br class="home-text34" />
-                <br class="home-text35" />
-                <span class="home-text36">Draft</span>
+                <br class="home-text28" />
+                <br class="home-text29" />
+                <router-link to="/about-me" class="home-navlink">
+                  You can read more about me here
+                </router-link>
+                <br class="home-text30" />
                 <br />
-                <span><span v-html="raw6smx"></span></span>
+                <span><span v-html="raw423t"></span></span>
               </p>
             </div>
           </div>
@@ -186,10 +173,10 @@
             </main>
           </main>
           <div class="home-hireme button">
-            <span class="home-text41">Hire Me</span>
+            <span class="home-text35">Hire Me</span>
           </div>
           <div class="home-hireme1 button">
-            <span class="home-text42">
+            <span class="home-text36">
               <span>Portfolio</span>
               <br />
             </span>
@@ -277,7 +264,7 @@
                 rel="noreferrer noopener"
                 class="home-link1"
               >
-                <p class="home-text45">Read -&gt;</p>
+                <p class="home-text39">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -298,7 +285,7 @@
                 rel="noreferrer noopener"
                 class="home-link2"
               >
-                <p class="home-text46">Read -&gt;</p>
+                <p class="home-text40">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -319,7 +306,7 @@
                 rel="noreferrer noopener"
                 class="home-link3"
               >
-                <p class="home-text47">Read -&gt;</p>
+                <p class="home-text41">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -337,7 +324,7 @@
                   src="https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png"
                   class="home-branding"
                 />
-                <span class="home-text48">A Ivan Ryan Website</span>
+                <span class="home-text42">A Ivan Ryan Website</span>
               </div>
             </header>
             <header class="home-categories">
@@ -357,7 +344,7 @@
                     href="https://github.com/Sudo-Ivan"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="home-text56 footer-link"
+                    class="home-text50 footer-link"
                   >
                     GitHub
                   </a>
@@ -370,11 +357,11 @@
           <main class="home-main5"><h1 class="home-heading8">RSS Feed</h1></main>
         </main>
         <section class="home-copyright">
-          <span class="home-text57">© 2022 latitude. All Rights Reserved.</span>
+          <span class="home-text51">© 2022 latitude. All Rights Reserved.</span>
         </section>
       </div>
       <section class="home-copyright1">
-        <span class="home-text58">
+        <span class="home-text52">
           <span>Website Last Updated November 2022 </span>
           <br />
           <span>Made with Rust + WASM + VueJS</span>
@@ -403,9 +390,9 @@ export default {
 
   data() {
     return {
-      rawn67f: ' ',
-      rawfg77: ' ',
-      raw6smx: ' ',
+      rawp2d5: ' ',
+      rawi0gh: ' ',
+      raw423t: ' ',
     }
   },
 
@@ -666,7 +653,7 @@ export default {
   font-weight: 500;
 }
 .home-paragraph {
-  color: rgb(204, 204, 204);
+  color: #ffffff;
   font-family: Poppins;
   line-height: 28px;
 }
@@ -704,7 +691,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-text20 {
+.home-text17 {
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-style: normal;
@@ -748,57 +735,12 @@ export default {
   align-self: center;
 }
 .home-paragraph1 {
+  color: rgb(255, 255, 255);
   align-self: center;
   text-align: center;
 }
-.home-text21 {
-  color: #ffffff;
-}
-.home-text22 {
-  color: #ffffff;
-}
-.home-text23 {
-  color: #ffffff;
-}
-.home-text24 {
-  color: #ffffff;
-}
-.home-text25 {
-  color: #ffffff;
-}
-.home-text26 {
-  color: #ffffff;
-}
-.home-text27 {
-  color: #ffffff;
-}
-.home-text28 {
-  color: #ffffff;
-}
-.home-text29 {
-  color: #ffffff;
-}
-.home-text30 {
-  color: #ffffff;
-}
-.home-text31 {
-  color: #ffffff;
-}
-.home-text32 {
-  color: #ffffff;
-}
-.home-text33 {
-  color: #ffffff;
-}
-.home-text34 {
-  color: #ffffff;
-}
-.home-text35 {
-  color: #ffffff;
-}
-.home-text36 {
-  color: #ffffff;
-  font-size: 24px;
+.home-navlink {
+  text-decoration: underline;
 }
 .home-note2 {
   width: 100%;
@@ -855,7 +797,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-success-300);
 }
-.home-text41 {
+.home-text35 {
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -874,7 +816,7 @@ export default {
   justify-content: center;
   background-color: #2a2a2a;
 }
-.home-text42 {
+.home-text36 {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-style: normal;
@@ -1144,7 +1086,7 @@ export default {
 .home-link1 {
   display: contents;
 }
-.home-text45 {
+.home-text39 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1208,7 +1150,7 @@ export default {
 .home-link2 {
   display: contents;
 }
-.home-text46 {
+.home-text40 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1271,7 +1213,7 @@ export default {
 .home-link3 {
   display: contents;
 }
-.home-text47 {
+.home-text41 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1333,7 +1275,7 @@ export default {
   width: 120px;
   object-fit: cover;
 }
-.home-text48 {
+.home-text42 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1371,7 +1313,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text56 {
+.home-text50 {
   text-decoration: none;
 }
 .home-subscribe {
@@ -1407,7 +1349,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-text57 {
+.home-text51 {
   color: #C4C4C4;
   width: 100%;
   font-size: 14px;
@@ -1423,7 +1365,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-text58 {
+.home-text52 {
   color: rgb(196, 196, 196);
   width: 100%;
   font-size: 14px;
@@ -1440,6 +1382,51 @@ export default {
     height: 10%;
     flex-direction: column;
     justify-content: center;
+  }
+  .home-paragraph1 {
+    color: #ffffff;
+  }
+  .home-text18 {
+    color: #ffffff;
+  }
+  .home-text19 {
+    color: #ffffff;
+  }
+  .home-text20 {
+    color: #ffffff;
+  }
+  .home-text21 {
+    color: #ffffff;
+  }
+  .home-text22 {
+    color: #ffffff;
+  }
+  .home-text23 {
+    color: #ffffff;
+  }
+  .home-text24 {
+    color: #ffffff;
+  }
+  .home-text25 {
+    color: #ffffff;
+  }
+  .home-text26 {
+    color: #ffffff;
+  }
+  .home-text27 {
+    color: #ffffff;
+  }
+  .home-text28 {
+    color: #ffffff;
+  }
+  .home-text29 {
+    color: #ffffff;
+  }
+  .home-navlink {
+    text-decoration: underline;
+  }
+  .home-text30 {
+    color: #ffffff;
   }
   .home-image09 {
     width: 107px;
@@ -1541,7 +1528,7 @@ export default {
   .home-main1 {
     align-items: flex-start;
   }
-  .home-text20 {
+  .home-text17 {
     text-align: center;
   }
   .home-certs {
@@ -1681,7 +1668,7 @@ export default {
     gap: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-text20 {
+  .home-text17 {
     font-size: 32px;
     text-align: center;
   }
