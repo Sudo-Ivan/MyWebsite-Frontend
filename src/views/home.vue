@@ -7,7 +7,7 @@
           <main class="home-main">
             <header class="home-header">
               <h1 class="home-heading">
-                <span class="home-text">I am a</span>
+                <span class="home-text">I am a </span>
                 <span class="home-text01">Software Engineer</span>
                 <br />
               </h1>
@@ -43,7 +43,7 @@
             id="terminal"
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay01.svg"
-            loading="lazy"
+            loading="eager"
             class="home-image1"
           />
         </div>
@@ -113,24 +113,25 @@
               />
               <p class="home-paragraph1 section-description">
                 <span class="home-text17">
-                  I am Ivan Ryan, the founder and CEO of Voltaic Hosting, an
+                  I am Ivan Ryan, the founder and CEO of Voltaic Hosting, a
                   international provider of sustainable, secure, and private
                   hosting solutions.
-                  <span v-html="raw5l23"></span>
+                  <span v-html="rawyp4d"></span>
                 </span>
                 <br class="home-text18" />
                 <br class="home-text19" />
                 <span class="home-text20">
-                  I am a for hire developer that specializes in developing a
-                  multitude of applications that offer exceptional scalability,
-                  performance, security, and privacy. While being fully compliant
-                  with the standards and regulations in Europe and United States.
-                  <span v-html="raw6c1v"></span>
+                  I also work as a for hire developer that specializes in
+                  developing a multitude of applications that offer exceptional
+                  scalability, performance, security, and privacy. While being
+                  fully compliant with the standards and regulations in Europe and
+                  United States.
+                  <span v-html="rawfge4"></span>
                 </span>
                 <br class="home-text21" />
                 <br class="home-text22" />
                 <span class="home-text23">
-                  I have held a number of professional certifications, including
+                  I maintain a number of professional certifications, including
                   Red Hat Certified Systems Engineer and Linux Foundation
                   Certified System Engineer. I am working on a degree in
                   Intelligence Studies at American Military University.
@@ -150,7 +151,7 @@
                 </router-link>
                 <br class="home-text29" />
                 <br />
-                <span><span v-html="rawuw5r"></span></span>
+                <span><span v-html="raw3c0t"></span></span>
               </p>
             </div>
           </div>
@@ -194,8 +195,12 @@
         </header>
         <div class="home-right">
           <p class="home-paragraph3 section-description">
-            I maintain several certifications in different fields. 
+            <span class="home-text35">Backend is undergoing changes</span>
+            <br />
+            <span>Not all sites will be available.</span>
+            <br />
           </p>
+          <p class="home-paragraph4 section-description"></p>
         </div>
       </header>
       <main class="home-cards">
@@ -209,7 +214,11 @@
             <h1 class="home-header04">CompTIA</h1>
             <p class="home-description">Certifications</p>
           </main>
-          <app-view1></app-view1>
+          <div class="home-container1">
+            <a href target="_blank" rel="noreferrer noopener" class="home-link1">
+              <p class="home-text39">View</p>
+            </a>
+          </div>
         </section>
         <section class="home-card1">
           <img
@@ -221,7 +230,11 @@
             <h1 class="home-header05">Linux Foundation</h1>
             <p class="home-description1">Certifications</p>
           </main>
-          <app-view2></app-view2>
+          <div class="home-container2">
+            <a href target="_blank" rel="noreferrer noopener" class="home-link2">
+              <p class="home-text40">View</p>
+            </a>
+          </div>
         </section>
         <section class="home-card2">
           <img
@@ -233,7 +246,11 @@
             <h1 class="home-header06">Red Hat</h1>
             <p class="home-description2">Certifications</p>
           </main>
-          <app-view3></app-view3>
+          <div class="home-container3">
+            <a href target="_blank" rel="noreferrer noopener" class="home-link3">
+              <p class="home-text41">View</p>
+            </a>
+          </div>
         </section>
       </main>
     </section>
@@ -259,9 +276,9 @@
                 href="https://blog.ivanryan.dev"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="home-link1"
+                class="home-link4"
               >
-                <p class="home-text35">Read -&gt;</p>
+                <p class="home-text42">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -280,9 +297,9 @@
                 href="https://blog.ivanryan.dev"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="home-link2"
+                class="home-link5"
               >
-                <p class="home-text36">Read -&gt;</p>
+                <p class="home-text43">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -301,9 +318,9 @@
                 href="https://blog.ivanryan.dev"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="home-link3"
+                class="home-link6"
               >
-                <p class="home-text37">Read -&gt;</p>
+                <p class="home-text44">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -321,7 +338,7 @@
                   src="https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png"
                   class="home-branding"
                 />
-                <span class="home-text38">A Ivan Ryan Website</span>
+                <span class="home-text45">A Ivan Ryan Website</span>
               </div>
             </header>
             <header class="home-categories">
@@ -338,7 +355,7 @@
                     href="https://github.com/Sudo-Ivan"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="home-text45 footer-link"
+                    class="home-text52 footer-link"
                   >
                     GitHub
                   </a>
@@ -352,7 +369,7 @@
         </main>
       </div>
       <section class="home-copyright">
-        <span class="home-text46">
+        <span class="home-text53">
           <span>Website Last Updated November 2022 </span>
           <br />
           <span>Made with Rust + WASM + VueJS</span>
@@ -365,25 +382,19 @@
 <script>
 import AppNavbar from '../components/navbar'
 import AppMark from '../components/mark'
-import AppView1 from '../components/view1'
-import AppView2 from '../components/view2'
-import AppView3 from '../components/view3'
 
 export default {
   name: 'Home',
   components: {
     AppNavbar,
     AppMark,
-    AppView1,
-    AppView2,
-    AppView3,
   },
 
   data() {
     return {
-      raw5l23: ' ',
-      raw6c1v: ' ',
-      rawuw5r: ' ',
+      rawyp4d: ' ',
+      rawfge4: ' ',
+      raw3c0t: ' ',
     }
   },
 
@@ -429,13 +440,12 @@ export default {
   width: 100%;
   height: 80vh;
   display: flex;
+  position: relative;
   align-items: center;
-  border-color: #51515A;
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   justify-content: center;
-  border-bottom-width: 1px;
 }
 .home-hero {
   width: 100%;
@@ -526,7 +536,7 @@ export default {
   line-height: 24px;
 }
 .home-image {
-  top: 150px;
+  top: var(--dl-space-space-fourunits);
   right: 0px;
   width: 50%;
   height: 900px;
@@ -542,7 +552,8 @@ export default {
   background-color: rgba(47, 47, 47, 0);
 }
 .home-image1 {
-  width: 100%;
+  width: 900px;
+  height: 670px;
   object-fit: cover;
 }
 .home-image2 {
@@ -552,6 +563,7 @@ export default {
   flex: 1;
   width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-fourunits);
   align-items: center;
   padding-top: 120px;
   padding-left: var(--dl-space-space-oneandhalfunits);
@@ -732,7 +744,7 @@ export default {
   align-self: center;
 }
 .home-selfie {
-  width: 100px;
+  width: 120px;
   align-self: center;
   object-fit: cover;
 }
@@ -856,7 +868,12 @@ export default {
   justify-content: center;
 }
 .home-paragraph3 {
-  color: #ffffff;
+  color: rgb(255, 0, 0);
+  width: 100%;
+  max-width: 480px;
+}
+.home-paragraph4 {
+  color: rgb(255, 0, 0);
   width: 100%;
   max-width: 480px;
 }
@@ -905,6 +922,20 @@ export default {
   font-family: Poppins;
   line-height: 28px;
 }
+.home-container1 {
+  display: flex;
+  position: relative;
+}
+.home-link1 {
+  display: contents;
+}
+.home-text39 {
+  color: #80FF44;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
 .home-card1 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
@@ -942,6 +973,20 @@ export default {
   font-family: Poppins;
   line-height: 28px;
 }
+.home-container2 {
+  display: flex;
+  position: relative;
+}
+.home-link2 {
+  display: contents;
+}
+.home-text40 {
+  color: #80FF44;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
 .home-card2 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 1;
@@ -978,6 +1023,20 @@ export default {
   color: rgb(194, 198, 204);
   font-family: Poppins;
   line-height: 28px;
+}
+.home-container3 {
+  display: flex;
+  position: relative;
+}
+.home-link3 {
+  display: contents;
+}
+.home-text41 {
+  color: #80FF44;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
 }
 .home-blog {
   gap: var(--dl-space-space-fiveunits);
@@ -1068,10 +1127,10 @@ export default {
 .home-button:hover {
   opacity: 0.5;
 }
-.home-link1 {
+.home-link4 {
   display: contents;
 }
-.home-text35 {
+.home-text42 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1132,10 +1191,10 @@ export default {
 .home-button1:hover {
   opacity: 0.5;
 }
-.home-link2 {
+.home-link5 {
   display: contents;
 }
-.home-text36 {
+.home-text43 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1195,10 +1254,10 @@ export default {
 .home-button2:hover {
   opacity: 0.5;
 }
-.home-link3 {
+.home-link6 {
   display: contents;
 }
-.home-text37 {
+.home-text44 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1260,7 +1319,7 @@ export default {
   width: 120px;
   object-fit: cover;
 }
-.home-text38 {
+.home-text45 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1291,7 +1350,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text45 {
+.home-text52 {
   text-decoration: none;
 }
 .home-subscribe {
@@ -1327,7 +1386,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-text46 {
+.home-text53 {
   color: rgb(196, 196, 196);
   width: 100%;
   font-size: 14px;
@@ -1344,6 +1403,14 @@ export default {
     height: 10%;
     flex-direction: column;
     justify-content: center;
+  }
+  .home-image1 {
+    top: var(--dl-space-space-unit);
+    left: -40px;
+    width: 821px;
+    height: auto;
+    position: absolute;
+    align-self: center;
   }
   .home-paragraph1 {
     color: #ffffff;
@@ -1394,11 +1461,26 @@ export default {
     color: #ffffff;
   }
   .home-paragraph3 {
-    color: #ffffff;
+    color: rgb(245, 0, 0);
+  }
+  .home-text35 {
+    color: rgb(245, 0, 0);
+  }
+  .home-paragraph4 {
+    color: rgb(245, 0, 0);
+  }
+  .home-text39 {
+    color: rgb(128, 255, 68);
+  }
+  .home-text40 {
+    color: rgb(128, 255, 68);
   }
   .home-image8 {
     width: 107px;
     height: 116px;
+  }
+  .home-text41 {
+    color: rgb(128, 255, 68);
   }
   .home-header11 {
     color: rgb(255, 255, 255);
@@ -1418,8 +1500,34 @@ export default {
   }
 }
 @media(max-width: 1200px) {
+  .home-firstsection {
+    justify-content: flex-start;
+  }
+  .home-hero {
+    justify-content: center;
+  }
+  .home-heading {
+    align-self: center;
+    text-align: center;
+  }
+  .home-caption {
+    align-self: center;
+    text-align: center;
+  }
+  .home-buttons {
+    align-self: center;
+    justify-content: center;
+  }
   .home-image {
     width: 50%;
+  }
+  .home-image1 {
+    top: 285px;
+    left: -419px;
+    width: 815px;
+    height: 617px;
+    position: absolute;
+    align-self: center;
   }
 }
 @media(max-width: 991px) {
@@ -1482,6 +1590,7 @@ export default {
   }
   .home-image3 {
     width: 600px;
+    align-self: center;
   }
   .home-text08 {
     text-align: center;
@@ -1724,16 +1833,70 @@ export default {
   }
   .home-image3 {
     width: 400px;
+    align-self: center;
   }
   .home-image5 {
     width: 100%;
     display: none;
   }
+  .home-paragraph1 {
+    color: rgb(255, 255, 255);
+  }
+  .home-text17 {
+    color: #ffffff;
+  }
+  .home-text18 {
+    color: #ffffff;
+  }
+  .home-text19 {
+    color: #ffffff;
+  }
+  .home-text20 {
+    color: #ffffff;
+  }
+  .home-text21 {
+    color: #ffffff;
+  }
+  .home-text22 {
+    color: #ffffff;
+  }
+  .home-text23 {
+    color: #ffffff;
+  }
+  .home-text24 {
+    color: #ffffff;
+  }
+  .home-text25 {
+    color: #ffffff;
+  }
+  .home-text26 {
+    color: #ffffff;
+  }
+  .home-text27 {
+    color: #ffffff;
+  }
+  .home-text28 {
+    color: #ffffff;
+  }
+  .home-navlink {
+    text-decoration: underline;
+  }
+  .home-text29 {
+    color: #ffffff;
+  }
   .home-checkmarks {
     width: 100%;
+    align-items: flex-start;
   }
   .home-card {
     width: 80%;
+  }
+  .home-text39 {
+    color: rgb(128, 255, 68);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
   }
   .home-card1 {
     width: 80%;
