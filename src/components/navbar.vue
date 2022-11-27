@@ -1,23 +1,32 @@
 <template>
   <nav class="navbar-navbar" v-bind:class="rootClassName">
-    <img
-      alt="Planical7012"
-      :src="BrandingLogo_src"
-      class="navbar-branding-logo"
-    />
+    <router-link to="/" class="navbar-navlink">
+      <img
+        alt="Planical7012"
+        :src="BrandingLogo_src"
+        class="navbar-branding-logo"
+      />
+    </router-link>
     <div class="navbar-nav-content">
       <div class="navbar-nav-links">
         <span class="navbar-link nav-link">Projects</span>
         <span class="nav-link">Portfolio</span>
-        <span class="nav-link">
+        <a
+          href="https://blog.ivanryan.dev"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="navbar-link2 nav-link"
+        >
           <span>Blog</span>
           <br />
-        </span>
+        </a>
         <span class="nav-link">Store</span>
       </div>
-      <div class="navbar-get-started get-started">
-        <span class="navbar-text2">Hire Me</span>
-      </div>
+      <router-link to="/hire-me" class="navbar-navlink1">
+        <div class="navbar-get-started get-started">
+          <span class="navbar-text2">Hire Me</span>
+        </div>
+      </router-link>
       <div id="open-mobile-menu" class="navbar-hamburger get-started">
         <img :alt="image_alt" :src="image_src" class="navbar-image" />
       </div>
@@ -145,10 +154,14 @@ export default {
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-fiveunits);
 }
+.navbar-navlink {
+  display: contents;
+}
 .navbar-branding-logo {
   width: 15%;
   height: 5%;
   box-sizing: content-box;
+  text-decoration: none;
 }
 .navbar-nav-content {
   gap: var(--dl-space-space-threeunits);
@@ -171,7 +184,14 @@ export default {
 .navbar-link:hover {
   text-underline-position: below;
 }
+.navbar-link2 {
+  text-decoration: none;
+}
+.navbar-navlink1 {
+  display: contents;
+}
 .navbar-get-started {
+  text-decoration: none;
   background-color: var(--dl-color-success-300);
 }
 .navbar-text2 {
@@ -182,7 +202,6 @@ export default {
   font-family: Poppins;
   font-weight: 500;
   font-stretch: normal;
-  text-decoration: none;
 }
 .navbar-hamburger {
   display: none;
@@ -246,6 +265,13 @@ export default {
 }
 
 
+
+
+@media(max-width: 1600px) {
+  .navbar-link {
+    text-decoration: none;
+  }
+}
 @media(max-width: 767px) {
   .navbar-navbar {
     padding-bottom: var(--dl-space-space-fourunits);
