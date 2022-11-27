@@ -6,7 +6,7 @@
       <span class="about-me-text01">
         <span>
           Alright here goes...
-          <span v-html="rawmred"></span>
+          <span v-html="raw5ll3"></span>
         </span>
         <br />
         <br />
@@ -28,7 +28,7 @@
           I currently serve in the US Army. I was a former infantryman (says with
           a prideful voice lol) and now work as an MQ-1 Operator stationed out of
           Fort Hood, Texas.
-          <span v-html="rawkjou"></span>
+          <span v-html="rawif1x"></span>
         </span>
         <br />
         <br />
@@ -36,7 +36,7 @@
           During my free time I work as a freelance software engineer, mostly
           designing server admin panels and server software for small hosting
           companies.
-          <span v-html="rawumfl"></span>
+          <span v-html="rawl7bb"></span>
         </span>
         <br />
         <br />
@@ -55,7 +55,7 @@
         </span>
         <br />
         <br />
-        <span><span v-html="raw8ozd"></span></span>
+        <span><span v-html="rawnhgz"></span></span>
         <span>
           I have experiance using many hosting companies and I can say that they
           all lack either security, privacy and a good fucking panel with a UI
@@ -72,7 +72,7 @@
         <br />
         <span>
           Thank you for coming to my TED talk
-          <span v-html="rawwwqc"></span>
+          <span v-html="rawb279"></span>
         </span>
         <br />
         <br />
@@ -114,11 +114,11 @@ export default {
 
   data() {
     return {
-      rawmred: ' ',
-      rawkjou: ' ',
-      rawumfl: ' ',
-      raw8ozd: ' ',
-      rawwwqc: ' ',
+      raw5ll3: ' ',
+      rawif1x: ' ',
+      rawl7bb: ' ',
+      rawnhgz: ' ',
+      rawb279: ' ',
     }
   },
 
@@ -137,12 +137,12 @@ export default {
       {
         property: 'og:description',
         content:
-          'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
+          'I am a freelance software engineer and current founder and CEO of Voltaic Hosting.',
       },
       {
         property: 'og:image',
         content:
-          'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },

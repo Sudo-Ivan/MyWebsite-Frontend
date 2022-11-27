@@ -79,8 +79,14 @@
             <h2 class="home-heading1">Pick the right tool for the job</h2>
             <p class="home-paragraph">
               <span>
-                Picking the proper programming langauge for the job is important
-                it ensure that you setup yourself for success.
+                Picking the proper programming language for the job is important
+                it ensure that you setup yourself for success. 
+              </span>
+              <br />
+              <br />
+              <span>
+                This will impact your scalability, performance, security and
+                privacy. I keep these values in mind when building projects.
               </span>
               <br />
             </p>
@@ -112,46 +118,46 @@
                 class="home-selfie"
               />
               <p class="home-paragraph1 section-description">
-                <span class="home-text17">
+                <span class="home-text20">
                   I am Ivan Ryan, the founder and CEO of Voltaic Hosting, a
                   international provider of sustainable, secure, and private
                   hosting solutions.
-                  <span v-html="raw15zm"></span>
+                  <span v-html="raw57bs"></span>
                 </span>
-                <br class="home-text18" />
-                <br class="home-text19" />
-                <span class="home-text20">
+                <br class="home-text21" />
+                <br class="home-text22" />
+                <span class="home-text23">
                   I also work as a for hire developer that specializes in
                   developing a multitude of applications that offer exceptional
                   scalability, performance, security, and privacy. While being
                   fully compliant with the standards and regulations in Europe and
                   United States.
-                  <span v-html="rawr44r"></span>
+                  <span v-html="rawij64"></span>
                 </span>
-                <br class="home-text21" />
-                <br class="home-text22" />
-                <span class="home-text23">
+                <br class="home-text24" />
+                <br class="home-text25" />
+                <span class="home-text26">
                   I maintain a number of professional certifications, including
                   Red Hat Certified Systems Engineer and Linux Foundation
                   Certified System Engineer. I am working on a degree in
                   Intelligence Studies at American Military University.
                 </span>
-                <br class="home-text24" />
-                <br class="home-text25" />
-                <span class="home-text26">
+                <br class="home-text27" />
+                <br class="home-text28" />
+                <span class="home-text29">
                   My goal is to help organizations and individuals by developing
                   secure, reliable, and compliant software. I am able to remote
                   code and work with the following IDEs and Code Editors: Visual
                   Studio Code, Eclipse, IntelliJ IDEA and Sublime Text.
                 </span>
-                <br class="home-text27" />
-                <br class="home-text28" />
+                <br class="home-text30" />
+                <br class="home-text31" />
                 <router-link to="/about-me" class="home-navlink">
                   You can read more about me here
                 </router-link>
-                <br class="home-text29" />
+                <br class="home-text32" />
                 <br />
-                <span><span v-html="rawqeq6"></span></span>
+                <span><span v-html="rawcegi"></span></span>
               </p>
             </div>
           </div>
@@ -182,7 +188,7 @@
             </main>
           </main>
           <div class="home-hireme button">
-            <span class="home-text34">Hire Me</span>
+            <span class="home-text37">Hire Me</span>
           </div>
         </div>
       </section>
@@ -195,12 +201,11 @@
         </header>
         <div class="home-right">
           <p class="home-paragraph3 section-description">
-            <span class="home-text35">Backend is undergoing changes</span>
+            <span class="home-text38">Backend is undergoing changes</span>
             <br />
             <span>Not all sites will be available.</span>
             <br />
           </p>
-          <p class="home-paragraph4 section-description"></p>
         </div>
       </header>
       <main class="home-cards">
@@ -216,7 +221,7 @@
           </main>
           <div class="home-container1">
             <a href target="_blank" rel="noreferrer noopener" class="home-link1">
-              <p class="home-text39">View</p>
+              <p class="home-text42">View</p>
             </a>
           </div>
         </section>
@@ -232,7 +237,7 @@
           </main>
           <div class="home-container2">
             <a href target="_blank" rel="noreferrer noopener" class="home-link2">
-              <p class="home-text40">View</p>
+              <p class="home-text43">View</p>
             </a>
           </div>
         </section>
@@ -248,7 +253,7 @@
           </main>
           <div class="home-container3">
             <a href target="_blank" rel="noreferrer noopener" class="home-link3">
-              <p class="home-text41">View</p>
+              <p class="home-text44">View</p>
             </a>
           </div>
         </section>
@@ -278,7 +283,7 @@
                 rel="noreferrer noopener"
                 class="home-link4"
               >
-                <p class="home-text42">Read -&gt;</p>
+                <p class="home-text45">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -299,7 +304,7 @@
                 rel="noreferrer noopener"
                 class="home-link5"
               >
-                <p class="home-text43">Read -&gt;</p>
+                <p class="home-text46">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -320,7 +325,7 @@
                 rel="noreferrer noopener"
                 class="home-link6"
               >
-                <p class="home-text44">Read -&gt;</p>
+                <p class="home-text47">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -338,7 +343,7 @@
                   src="https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png"
                   class="home-branding"
                 />
-                <span class="home-text45">A Ivan Ryan Website</span>
+                <span class="home-text48">A Ivan Ryan Website</span>
               </div>
             </header>
             <header class="home-categories">
@@ -355,7 +360,7 @@
                     href="https://github.com/Sudo-Ivan"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="home-text52 footer-link"
+                    class="home-text55 footer-link"
                   >
                     GitHub
                   </a>
@@ -364,12 +369,10 @@
             </header>
           </div>
         </main>
-        <main class="home-subscribe">
-          <main class="home-main5"><h1 class="home-heading7">RSS Feed</h1></main>
-        </main>
+        <main class="home-subscribe"></main>
       </div>
       <section class="home-copyright">
-        <span class="home-text53">
+        <span class="home-text56">
           <span>Website Last Updated November 2022 </span>
           <br />
           <span>Made with Rust + WASM + VueJS</span>
@@ -392,9 +395,9 @@ export default {
 
   data() {
     return {
-      raw15zm: ' ',
-      rawr44r: ' ',
-      rawqeq6: ' ',
+      raw57bs: ' ',
+      rawij64: ' ',
+      rawcegi: ' ',
     }
   },
 
@@ -413,12 +416,12 @@ export default {
       {
         property: 'og:description',
         content:
-          'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
+          'I am a freelance software engineer and current founder and CEO of Voltaic Hosting.',
       },
       {
         property: 'og:image',
         content:
-          'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },
@@ -661,7 +664,7 @@ export default {
   font-weight: 500;
 }
 .home-paragraph {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-family: Poppins;
   line-height: 28px;
@@ -744,7 +747,8 @@ export default {
   align-self: center;
 }
 .home-selfie {
-  width: 120px;
+  width: 140px;
+  height: 126px;
   align-self: center;
   object-fit: cover;
 }
@@ -820,7 +824,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-success-300);
 }
-.home-text34 {
+.home-text37 {
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -868,11 +872,6 @@ export default {
   justify-content: center;
 }
 .home-paragraph3 {
-  color: rgb(255, 0, 0);
-  width: 100%;
-  max-width: 480px;
-}
-.home-paragraph4 {
   color: rgb(255, 0, 0);
   width: 100%;
   max-width: 480px;
@@ -929,7 +928,7 @@ export default {
 .home-link1 {
   display: contents;
 }
-.home-text39 {
+.home-text42 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -980,7 +979,7 @@ export default {
 .home-link2 {
   display: contents;
 }
-.home-text40 {
+.home-text43 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1031,7 +1030,7 @@ export default {
 .home-link3 {
   display: contents;
 }
-.home-text41 {
+.home-text44 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1130,7 +1129,7 @@ export default {
 .home-link4 {
   display: contents;
 }
-.home-text42 {
+.home-text45 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1194,7 +1193,7 @@ export default {
 .home-link5 {
   display: contents;
 }
-.home-text43 {
+.home-text46 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1257,7 +1256,7 @@ export default {
 .home-link6 {
   display: contents;
 }
-.home-text44 {
+.home-text47 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1319,7 +1318,7 @@ export default {
   width: 120px;
   object-fit: cover;
 }
-.home-text45 {
+.home-text48 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1350,32 +1349,17 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text52 {
+.home-text55 {
   text-decoration: none;
 }
 .home-subscribe {
   gap: var(--dl-space-space-unit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
-}
-.home-main5 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.home-heading7 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  max-width: 275px;
-  font-style: normal;
-  text-align: left;
-  font-weight: 500;
-  line-height: 30px;
 }
 .home-copyright {
   gap: var(--dl-space-space-fiveunits);
@@ -1386,7 +1370,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-text53 {
+.home-text56 {
   color: rgb(196, 196, 196);
   width: 100%;
   font-size: 14px;
@@ -1424,15 +1408,6 @@ export default {
   .home-paragraph1 {
     color: #ffffff;
   }
-  .home-text17 {
-    color: #ffffff;
-  }
-  .home-text18 {
-    color: #ffffff;
-  }
-  .home-text19 {
-    color: #ffffff;
-  }
   .home-text20 {
     color: #ffffff;
   }
@@ -1460,10 +1435,19 @@ export default {
   .home-text28 {
     color: #ffffff;
   }
+  .home-text29 {
+    color: #ffffff;
+  }
+  .home-text30 {
+    color: #ffffff;
+  }
+  .home-text31 {
+    color: #ffffff;
+  }
   .home-navlink {
     text-decoration: underline;
   }
-  .home-text29 {
+  .home-text32 {
     color: #ffffff;
   }
   .home-paragraph2 {
@@ -1472,23 +1456,20 @@ export default {
   .home-paragraph3 {
     color: rgb(245, 0, 0);
   }
-  .home-text35 {
+  .home-text38 {
     color: rgb(245, 0, 0);
   }
-  .home-paragraph4 {
-    color: rgb(245, 0, 0);
-  }
-  .home-text39 {
+  .home-text42 {
     color: rgb(128, 255, 68);
   }
-  .home-text40 {
+  .home-text43 {
     color: rgb(128, 255, 68);
   }
   .home-image8 {
     width: 107px;
     height: 116px;
   }
-  .home-text41 {
+  .home-text44 {
     color: rgb(128, 255, 68);
   }
   .home-header11 {
@@ -1852,15 +1833,6 @@ export default {
   .home-paragraph1 {
     color: rgb(255, 255, 255);
   }
-  .home-text17 {
-    color: #ffffff;
-  }
-  .home-text18 {
-    color: #ffffff;
-  }
-  .home-text19 {
-    color: #ffffff;
-  }
   .home-text20 {
     color: #ffffff;
   }
@@ -1888,10 +1860,19 @@ export default {
   .home-text28 {
     color: #ffffff;
   }
+  .home-text29 {
+    color: #ffffff;
+  }
+  .home-text30 {
+    color: #ffffff;
+  }
+  .home-text31 {
+    color: #ffffff;
+  }
   .home-navlink {
     text-decoration: underline;
   }
-  .home-text29 {
+  .home-text32 {
     color: #ffffff;
   }
   .home-checkmarks {
@@ -1901,7 +1882,7 @@ export default {
   .home-card {
     width: 80%;
   }
-  .home-text39 {
+  .home-text42 {
     color: rgb(128, 255, 68);
     font-style: normal;
     font-weight: 500;
