@@ -1,6 +1,9 @@
 <template>
   <div class="hire-me-container">
     <app-navbar rootClassName="navbar-root-class-name"></app-navbar>
+    <h1 class="hire-me-text">
+      Sorry this page is being redesigned with a new blazing fast system.
+    </h1>
   </div>
 </template>
 
@@ -48,5 +51,22 @@ export default {
   align-items: center;
   flex-direction: column;
   background-color: #000000;
+}
+.hire-me-text {
+  margin-top: var(--dl-space-space-sixunits);
+}
+@media(max-width: 1600px) {
+  .hire-me-text {
+    width: 50%;
+    height: 103px;
+    margin-top: var(--dl-space-space-fourunits);
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .hire-me-text {
+    width: 289px;
+    height: 241px;
+  }
 }
 </style>
