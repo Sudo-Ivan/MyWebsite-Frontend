@@ -13,11 +13,21 @@ export default {
     AppNavbar,
   },
   metaInfo: {
-    title: 'Hire-me - Planical modern template',
+    title: 'Hire-me - Ivan Ryan | Software Engineer',
     meta: [
       {
+        name: 'description',
+        content:
+          'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
+      },
+      {
         property: 'og:title',
-        content: 'Hire-me - Planical modern template',
+        content: 'Hire-me - Ivan Ryan | Software Engineer',
+      },
+      {
+        property: 'og:description',
+        content:
+          'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
       },
     ],
   },

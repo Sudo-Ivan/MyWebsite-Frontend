@@ -22,12 +22,19 @@
               <div class="home-portfolio button">
                 <span class="home-text04">Portfolio</span>
               </div>
-              <div class="home-github button">
-                <span class="home-text05">
-                  <span>GitHub</span>
-                  <br />
-                </span>
-              </div>
+              <a
+                href="https://github.com/Sudo-Ivan"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link"
+              >
+                <div class="home-github button">
+                  <span class="home-text05">
+                    <span>GitHub</span>
+                    <br />
+                  </span>
+                </div>
+              </a>
             </div>
           </main>
         </div>
@@ -112,7 +119,7 @@
                   privacy and security first. We use an in-house developed web
                   panel that does not track you, there are no ads and rely on
                   secure CDNs.
-                  <span v-html="rawq2pd"></span>
+                  <span v-html="rawn67f"></span>
                 </span>
                 <br class="home-text22" />
                 <br class="home-text23" />
@@ -128,7 +135,7 @@
                   multitude of applications that offer exceptional scalability,
                   performance, security, and privacy. While being fully compliant
                   with the standards and regulations in Europe and United States.
-                  <span v-html="rawitre"></span>
+                  <span v-html="rawfg77"></span>
                 </span>
                 <br class="home-text28" />
                 <br class="home-text29" />
@@ -150,7 +157,7 @@
                 <br class="home-text35" />
                 <span class="home-text36">Draft</span>
                 <br />
-                <span><span v-html="raw1ubo"></span></span>
+                <span><span v-html="raw6smx"></span></span>
               </p>
             </div>
           </div>
@@ -218,7 +225,7 @@
             <h1 class="home-header04">CompTIA</h1>
             <p class="home-description">Certifications</p>
           </main>
-          <app-text></app-text>
+          <app-view1></app-view1>
         </section>
         <section class="home-card1">
           <img
@@ -230,7 +237,7 @@
             <h1 class="home-header05">Linux Foundation</h1>
             <p class="home-description1">Certifications</p>
           </main>
-          <app-text1></app-text1>
+          <app-view2></app-view2>
         </section>
         <section class="home-card2">
           <img
@@ -242,7 +249,7 @@
             <h1 class="home-header06">Red Hat</h1>
             <p class="home-description2">Certifications</p>
           </main>
-          <app-text2></app-text2>
+          <app-view3></app-view3>
         </section>
       </main>
     </section>
@@ -264,7 +271,12 @@
               premium email service for free.
             </p>
             <div class="home-button">
-              <a href target="_blank" rel="noreferrer noopener" class="home-link">
+              <a
+                href="https://blog.ivanryan.dev"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link1"
+              >
                 <p class="home-text45">Read -&gt;</p>
               </a>
             </div>
@@ -281,10 +293,10 @@
             </p>
             <div class="home-button1">
               <a
-                href
+                href="https://blog.ivanryan.dev"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="home-link1"
+                class="home-link2"
               >
                 <p class="home-text46">Read -&gt;</p>
               </a>
@@ -302,10 +314,10 @@
             </p>
             <div class="home-button2">
               <a
-                href
+                href="https://blog.ivanryan.dev"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="home-link2"
+                class="home-link3"
               >
                 <p class="home-text47">Read -&gt;</p>
               </a>
@@ -341,7 +353,14 @@
                     <br />
                   </span>
                   <span class="footer-link">Contact Me</span>
-                  <span class="footer-link">GitHub</span>
+                  <a
+                    href="https://github.com/Sudo-Ivan"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="home-text56 footer-link"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
             </header>
@@ -368,34 +387,44 @@
 <script>
 import AppNavbar from '../components/navbar'
 import AppMark from '../components/mark'
-import AppText from '../components/text'
-import AppText1 from '../components/text1'
-import AppText2 from '../components/text2'
+import AppView1 from '../components/view1'
+import AppView2 from '../components/view2'
+import AppView3 from '../components/view3'
 
 export default {
   name: 'Home',
   components: {
     AppNavbar,
     AppMark,
-    AppText,
-    AppText1,
-    AppText2,
+    AppView1,
+    AppView2,
+    AppView3,
   },
 
   data() {
     return {
-      rawq2pd: ' ',
-      rawitre: ' ',
-      raw1ubo: ' ',
+      rawn67f: ' ',
+      rawfg77: ' ',
+      raw6smx: ' ',
     }
   },
 
   metaInfo: {
-    title: 'Planical modern template',
+    title: 'Ivan Ryan | Software Engineer',
     meta: [
       {
+        name: 'description',
+        content:
+          'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
+      },
+      {
         property: 'og:title',
-        content: 'Planical modern template',
+        content: 'Ivan Ryan | Software Engineer',
+      },
+      {
+        property: 'og:description',
+        content:
+          'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
       },
     ],
   },
@@ -498,7 +527,11 @@ export default {
   font-weight: 500;
   line-height: 24px;
 }
+.home-link {
+  display: contents;
+}
 .home-github {
+  text-decoration: none;
   background-color: #2A2A2A;
 }
 .home-text05 {
@@ -1108,7 +1141,7 @@ export default {
 .home-button:hover {
   opacity: 0.5;
 }
-.home-link {
+.home-link1 {
   display: contents;
 }
 .home-text45 {
@@ -1172,7 +1205,7 @@ export default {
 .home-button1:hover {
   opacity: 0.5;
 }
-.home-link1 {
+.home-link2 {
   display: contents;
 }
 .home-text46 {
@@ -1235,7 +1268,7 @@ export default {
 .home-button2:hover {
   opacity: 0.5;
 }
-.home-link2 {
+.home-link3 {
   display: contents;
 }
 .home-text47 {
@@ -1337,6 +1370,9 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
+}
+.home-text56 {
+  text-decoration: none;
 }
 .home-subscribe {
   gap: var(--dl-space-space-unit);
