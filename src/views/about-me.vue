@@ -6,7 +6,7 @@
       <span class="about-me-text01">
         <span>
           Alright here goes...
-          <span v-html="rawgcpb"></span>
+          <span v-html="rawmred"></span>
         </span>
         <br />
         <br />
@@ -28,7 +28,7 @@
           I currently serve in the US Army. I was a former infantryman (says with
           a prideful voice lol) and now work as an MQ-1 Operator stationed out of
           Fort Hood, Texas.
-          <span v-html="rawz3fa"></span>
+          <span v-html="rawkjou"></span>
         </span>
         <br />
         <br />
@@ -36,7 +36,7 @@
           During my free time I work as a freelance software engineer, mostly
           designing server admin panels and server software for small hosting
           companies.
-          <span v-html="raw01hg"></span>
+          <span v-html="rawumfl"></span>
         </span>
         <br />
         <br />
@@ -55,7 +55,7 @@
         </span>
         <br />
         <br />
-        <span><span v-html="raw76uv"></span></span>
+        <span><span v-html="raw8ozd"></span></span>
         <span>
           I have experiance using many hosting companies and I can say that they
           all lack either security, privacy and a good fucking panel with a UI
@@ -72,7 +72,7 @@
         <br />
         <span>
           Thank you for coming to my TED talk
-          <span v-html="raweepo"></span>
+          <span v-html="rawwwqc"></span>
         </span>
         <br />
         <br />
@@ -114,11 +114,11 @@ export default {
 
   data() {
     return {
-      rawgcpb: ' ',
-      rawz3fa: ' ',
-      raw01hg: ' ',
-      raw76uv: ' ',
-      raweepo: ' ',
+      rawmred: ' ',
+      rawkjou: ' ',
+      rawumfl: ' ',
+      raw8ozd: ' ',
+      rawwwqc: ' ',
     }
   },
 

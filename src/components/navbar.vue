@@ -27,13 +27,10 @@
           <span class="navbar-text2">Hire Me</span>
         </div>
       </router-link>
-      <div id="open-mobile-menu" class="navbar-hamburger get-started">
-        <img :alt="image_alt" :src="image_src" class="navbar-image" />
-      </div>
     </div>
     <div id="mobile-menu" class="navbar-mobile-menu">
       <div class="navbar-branding">
-        <img :alt="image_alt1" :src="image_src1" class="navbar-image1" />
+        <img :alt="image_alt1" :src="image_src1" class="navbar-image" />
         <div id="close-mobile-menu" class="navbar-container">
           <svg viewBox="0 0 1024 1024" class="navbar-icon">
             <path
@@ -51,15 +48,10 @@
 export default {
   name: 'Navbar',
   props: {
-    image_alt: String,
     image_src1: {
       type: String,
       default:
-        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
-    },
-    image_src: {
-      type: String,
-      default: '/playground_assets/hamburger-200h.png',
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
     },
     image_alt1: {
       type: String,
@@ -139,13 +131,6 @@ export default {
   font-weight: 500;
   font-stretch: normal;
 }
-.navbar-hamburger {
-  display: none;
-}
-.navbar-image {
-  width: 100px;
-  object-fit: cover;
-}
 .navbar-mobile-menu {
   gap: var(--dl-space-space-twounits);
   top: 0;
@@ -168,7 +153,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.navbar-image1 {
+.navbar-image {
   width: 100px;
   filter: brightness(0) saturate(100%);
   object-fit: cover;
@@ -215,17 +200,14 @@ export default {
   .navbar-get-started {
     display: none;
   }
-  .navbar-hamburger {
-    display: flex;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .navbar-image {
-    width: 16px;
-    height: 14px;
-  }
   .navbar-branding {
     width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-navbar {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 </style>

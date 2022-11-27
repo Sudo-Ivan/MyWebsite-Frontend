@@ -62,7 +62,7 @@
       <div class="home-features">
         <header class="feature feature-active home-feature">
           <h3 class="home-text09">Code</h3>
-          <p class="home-text10">Effenciently</p>
+          <p class="home-text10">Efficiently</p>
         </header>
         <header class="feature home-feature1">
           <h3 class="home-text11">Secure</h3>
@@ -116,7 +116,7 @@
                   I am Ivan Ryan, the founder and CEO of Voltaic Hosting, a
                   international provider of sustainable, secure, and private
                   hosting solutions.
-                  <span v-html="rawyp4d"></span>
+                  <span v-html="raw15zm"></span>
                 </span>
                 <br class="home-text18" />
                 <br class="home-text19" />
@@ -126,7 +126,7 @@
                   scalability, performance, security, and privacy. While being
                   fully compliant with the standards and regulations in Europe and
                   United States.
-                  <span v-html="rawfge4"></span>
+                  <span v-html="rawr44r"></span>
                 </span>
                 <br class="home-text21" />
                 <br class="home-text22" />
@@ -151,7 +151,7 @@
                 </router-link>
                 <br class="home-text29" />
                 <br />
-                <span><span v-html="raw3c0t"></span></span>
+                <span><span v-html="rawqeq6"></span></span>
               </p>
             </div>
           </div>
@@ -392,9 +392,9 @@ export default {
 
   data() {
     return {
-      rawyp4d: ' ',
-      rawfge4: ' ',
-      raw3c0t: ' ',
+      raw15zm: ' ',
+      rawr44r: ' ',
+      rawqeq6: ' ',
     }
   },
 
@@ -418,7 +418,7 @@ export default {
       {
         property: 'og:image',
         content:
-          'https://cdn.statically.io/og/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
+          'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
       },
     ],
   },
@@ -1412,6 +1412,15 @@ export default {
     position: absolute;
     align-self: center;
   }
+  .home-text10 {
+    color: rgb(121, 124, 128);
+    font-family: Poppins;
+  }
+  .home-paragraph {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    line-height: 28px;
+  }
   .home-paragraph1 {
     color: #ffffff;
   }
@@ -1824,6 +1833,7 @@ export default {
   }
   .home-heading {
     max-width: 280px;
+    text-align: center;
   }
   .home-text {
     max-width: 280px;
