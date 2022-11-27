@@ -9,8 +9,12 @@
     </router-link>
     <div class="navbar-nav-content">
       <div class="navbar-nav-links">
-        <span class="navbar-link nav-link">Projects</span>
-        <span class="nav-link">Portfolio</span>
+        <router-link to="/projects" class="navbar-link nav-link">
+          Projects
+        </router-link>
+        <router-link to="/portfolio" class="navbar-link1 nav-link">
+          Portfolio
+        </router-link>
         <a
           href="https://blog.ivanryan.dev"
           target="_blank"
@@ -20,7 +24,9 @@
           <span>Blog</span>
           <br />
         </a>
-        <span class="nav-link">Store</span>
+        <router-link to="/stores" class="navbar-link3 nav-link">
+          Store
+        </router-link>
       </div>
       <router-link to="/hire-me" class="navbar-navlink1">
         <div class="navbar-get-started get-started">
@@ -51,7 +57,7 @@ export default {
     image_src1: {
       type: String,
       default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
+        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
     },
     image_alt1: {
       type: String,
@@ -112,7 +118,13 @@ export default {
 .navbar-link:hover {
   text-underline-position: below;
 }
+.navbar-link1 {
+  text-decoration: none;
+}
 .navbar-link2 {
+  text-decoration: none;
+}
+.navbar-link3 {
   text-decoration: none;
 }
 .navbar-navlink1 {
@@ -178,6 +190,9 @@ export default {
   font-stretch: normal;
   text-decoration: none;
 }
+
+
+
 
 
 
