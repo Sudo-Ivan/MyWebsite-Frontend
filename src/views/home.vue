@@ -43,7 +43,7 @@
             id="terminal"
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay01.svg"
-            loading="lazy"
+            loading="eager"
             class="home-image1"
           />
         </div>
@@ -116,7 +116,7 @@
                   I am Ivan Ryan, the founder and CEO of Voltaic Hosting, a
                   international provider of sustainable, secure, and private
                   hosting solutions.
-                  <span v-html="rawalzk"></span>
+                  <span v-html="rawyp4d"></span>
                 </span>
                 <br class="home-text18" />
                 <br class="home-text19" />
@@ -126,7 +126,7 @@
                   scalability, performance, security, and privacy. While being
                   fully compliant with the standards and regulations in Europe and
                   United States.
-                  <span v-html="rawy7aa"></span>
+                  <span v-html="rawfge4"></span>
                 </span>
                 <br class="home-text21" />
                 <br class="home-text22" />
@@ -151,7 +151,7 @@
                 </router-link>
                 <br class="home-text29" />
                 <br />
-                <span><span v-html="rawa4pn"></span></span>
+                <span><span v-html="raw3c0t"></span></span>
               </p>
             </div>
           </div>
@@ -392,9 +392,9 @@ export default {
 
   data() {
     return {
-      rawalzk: ' ',
-      rawy7aa: ' ',
-      rawa4pn: ' ',
+      rawyp4d: ' ',
+      rawfge4: ' ',
+      raw3c0t: ' ',
     }
   },
 
@@ -536,7 +536,7 @@ export default {
   line-height: 24px;
 }
 .home-image {
-  top: 150px;
+  top: var(--dl-space-space-fourunits);
   right: 0px;
   width: 50%;
   height: 900px;
@@ -552,8 +552,9 @@ export default {
   background-color: rgba(47, 47, 47, 0);
 }
 .home-image1 {
-  width: 100%;
-  height: 90%;
+  width: 900px;
+  height: 670px;
+  object-fit: cover;
 }
 .home-image2 {
   display: none;
@@ -1404,8 +1405,9 @@ export default {
     justify-content: center;
   }
   .home-image1 {
-    top: -24px;
+    top: var(--dl-space-space-unit);
     left: -40px;
+    width: 821px;
     height: auto;
     position: absolute;
     align-self: center;
@@ -1498,8 +1500,34 @@ export default {
   }
 }
 @media(max-width: 1200px) {
+  .home-firstsection {
+    justify-content: flex-start;
+  }
+  .home-hero {
+    justify-content: center;
+  }
+  .home-heading {
+    align-self: center;
+    text-align: center;
+  }
+  .home-caption {
+    align-self: center;
+    text-align: center;
+  }
+  .home-buttons {
+    align-self: center;
+    justify-content: center;
+  }
   .home-image {
     width: 50%;
+  }
+  .home-image1 {
+    top: 285px;
+    left: -419px;
+    width: 815px;
+    height: 617px;
+    position: absolute;
+    align-self: center;
   }
 }
 @media(max-width: 991px) {
