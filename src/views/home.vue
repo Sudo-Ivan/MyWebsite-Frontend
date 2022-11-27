@@ -7,7 +7,7 @@
           <main class="home-main">
             <header class="home-header">
               <h1 class="home-heading">
-                <span class="home-text">I am a</span>
+                <span class="home-text">I am a </span>
                 <span class="home-text01">Software Engineer</span>
                 <br />
               </h1>
