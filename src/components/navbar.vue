@@ -111,7 +111,7 @@ export default {
     image_src1: {
       type: String,
       default:
-        'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
+        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
     },
     image_src: {
       type: String,
@@ -130,7 +130,7 @@ export default {
     BrandingLogo: {
       type: String,
       default:
-        'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/08e9141c-e9e9-4d51-994d-22f260b21c68/0f4ac702-51a5-4a68-8182-06e3f427edb8?org_if_sml=14251',
+        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
     },
   },
   components: {
