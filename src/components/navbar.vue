@@ -9,8 +9,12 @@
     </router-link>
     <div class="navbar-nav-content">
       <div class="navbar-nav-links">
-        <span class="navbar-link nav-link">Projects</span>
-        <span class="nav-link">Portfolio</span>
+        <router-link to="/projects" class="navbar-link nav-link">
+          Projects
+        </router-link>
+        <router-link to="/portfolio" class="navbar-link1 nav-link">
+          Portfolio
+        </router-link>
         <a
           href="https://blog.ivanryan.dev"
           target="_blank"
@@ -20,20 +24,19 @@
           <span>Blog</span>
           <br />
         </a>
-        <span class="nav-link">Store</span>
+        <router-link to="/stores" class="navbar-link3 nav-link">
+          Store
+        </router-link>
       </div>
       <router-link to="/hire-me" class="navbar-navlink1">
         <div class="navbar-get-started get-started">
           <span class="navbar-text2">Hire Me</span>
         </div>
       </router-link>
-      <div id="open-mobile-menu" class="navbar-hamburger get-started">
-        <img :alt="image_alt" :src="image_src" class="navbar-image" />
-      </div>
     </div>
     <div id="mobile-menu" class="navbar-mobile-menu">
       <div class="navbar-branding">
-        <img :alt="image_alt1" :src="image_src1" class="navbar-image1" />
+        <img :alt="image_alt1" :src="image_src1" class="navbar-image" />
         <div id="close-mobile-menu" class="navbar-container">
           <svg viewBox="0 0 1024 1024" class="navbar-icon">
             <path
@@ -51,15 +54,10 @@
 export default {
   name: 'Navbar',
   props: {
-    image_alt: String,
     image_src1: {
       type: String,
       default:
-        'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
-    },
-    image_src: {
-      type: String,
-      default: '/playground_assets/hamburger-200h.png',
+        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
     },
     image_alt1: {
       type: String,
@@ -120,7 +118,13 @@ export default {
 .navbar-link:hover {
   text-underline-position: below;
 }
+.navbar-link1 {
+  text-decoration: none;
+}
 .navbar-link2 {
+  text-decoration: none;
+}
+.navbar-link3 {
   text-decoration: none;
 }
 .navbar-navlink1 {
@@ -138,13 +142,6 @@ export default {
   font-family: Poppins;
   font-weight: 500;
   font-stretch: normal;
-}
-.navbar-hamburger {
-  display: none;
-}
-.navbar-image {
-  width: 100px;
-  object-fit: cover;
 }
 .navbar-mobile-menu {
   gap: var(--dl-space-space-twounits);
@@ -168,7 +165,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 }
-.navbar-image1 {
+.navbar-image {
   width: 100px;
   filter: brightness(0) saturate(100%);
   object-fit: cover;
@@ -197,6 +194,9 @@ export default {
 
 
 
+
+
+
 @media(max-width: 1600px) {
   .navbar-link {
     text-decoration: none;
@@ -215,17 +215,14 @@ export default {
   .navbar-get-started {
     display: none;
   }
-  .navbar-hamburger {
-    display: flex;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .navbar-image {
-    width: 16px;
-    height: 14px;
-  }
   .navbar-branding {
     width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-navbar {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 </style>

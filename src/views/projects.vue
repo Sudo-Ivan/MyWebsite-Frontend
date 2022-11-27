@@ -30,7 +30,7 @@ export default {
       {
         property: 'og:description',
         content:
-          'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
+          'I am a freelance software engineer and current founder and CEO of Voltaic Hosting.',
       },
       {
         property: 'og:image',

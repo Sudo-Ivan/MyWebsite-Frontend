@@ -1,7 +1,7 @@
 <template>
-  <div class="hire-me-container">
+  <div class="portfolio-container">
     <app-navbar rootClassName="navbar-root-class-name"></app-navbar>
-    <h1 class="hire-me-text">
+    <h1 class="portfolio-text">
       Sorry this page is being redesigned with a new blazing fast system.
     </h1>
   </div>
@@ -11,12 +11,12 @@
 import AppNavbar from '../components/navbar'
 
 export default {
-  name: 'HireMe',
+  name: 'Portfolio',
   components: {
     AppNavbar,
   },
   metaInfo: {
-    title: 'Hire-me - Ivan Ryan | Software Engineer',
+    title: 'Portfolio - Ivan Ryan | Software Engineer',
     meta: [
       {
         name: 'description',
@@ -25,7 +25,7 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'Hire-me - Ivan Ryan | Software Engineer',
+        content: 'Portfolio - Ivan Ryan | Software Engineer',
       },
       {
         property: 'og:description',
@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style scoped>
-.hire-me-container {
+.portfolio-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -52,11 +52,11 @@ export default {
   flex-direction: column;
   background-color: #000000;
 }
-.hire-me-text {
+.portfolio-text {
   margin-top: var(--dl-space-space-sixunits);
 }
 @media(max-width: 1600px) {
-  .hire-me-text {
+  .portfolio-text {
     width: 50%;
     height: 103px;
     margin-top: var(--dl-space-space-fourunits);
@@ -64,7 +64,7 @@ export default {
   }
 }
 @media(max-width: 479px) {
-  .hire-me-text {
+  .portfolio-text {
     width: 289px;
     height: 241px;
   }
