@@ -42,12 +42,6 @@
           </svg>
         </div>
       </div>
-      <div class="navbar-nav-links1">
-        <span class="nav-link">Features</span>
-        <span class="nav-link">Why us</span>
-        <span class="nav-link">Prices</span>
-        <span class="nav-link">Contact</span>
-      </div>
       <div class="get-started"><span class="navbar-text3">Get started</span></div>
     </div>
     <div>
@@ -127,11 +121,6 @@ export default {
         'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
     },
     rootClassName: String,
-    BrandingLogo: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
-    },
   },
   components: {
     DangerousHTML,
@@ -247,12 +236,6 @@ export default {
   width: 24px;
   height: 24px;
 }
-.navbar-nav-links1 {
-  gap: var(--dl-space-space-unit);
-  color: var(--dl-color-gray-black);
-  display: flex;
-  flex-direction: column;
-}
 .navbar-text3 {
   color: rgba(255, 255, 255, 1);
   align-self: auto;
@@ -296,12 +279,6 @@ export default {
   }
   .navbar-branding {
     width: 100%;
-  }
-  .navbar-nav-links1 {
-    margin-top: var(--dl-space-space-twounits);
-    align-items: flex-start;
-    margin-bottom: var(--dl-space-space-twounits);
-    justify-content: center;
   }
 }
 </style>

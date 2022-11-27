@@ -6,7 +6,7 @@
       <span class="about-me-text01">
         <span>
           Alright here goes...
-          <span v-html="rawblds"></span>
+          <span v-html="rawn634"></span>
         </span>
         <br />
         <br />
@@ -28,7 +28,7 @@
           I currently serve in the US Army. I was a former infantryman (says with
           a prideful voice lol) and now work as an MQ-1 Operator stationed out of
           Fort Hood, Texas.
-          <span v-html="raw4wuc"></span>
+          <span v-html="rawhr6u"></span>
         </span>
         <br />
         <br />
@@ -36,7 +36,7 @@
           During my free time I work as a freelance software engineer, mostly
           designing server admin panels and server software for small hosting
           companies.
-          <span v-html="rawv52l"></span>
+          <span v-html="rawcrpk"></span>
         </span>
         <br />
         <br />
@@ -55,7 +55,7 @@
         </span>
         <br />
         <br />
-        <span><span v-html="raw8st3"></span></span>
+        <span><span v-html="raw05oe"></span></span>
         <span>
           I have experiance using many hosting companies and I can say that they
           all lack either security, privacy and a good fucking panel with a UI
@@ -72,7 +72,7 @@
         <br />
         <span>
           Thank you for coming to my TED talk
-          <span v-html="raw8ctq"></span>
+          <span v-html="raw1c37"></span>
         </span>
         <br />
         <br />
@@ -87,25 +87,18 @@
         class="about-me-link"
       >
         <img
-          src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/logo/revolt-logo.svg"
           alt="image"
+          src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/logo/revolt-logo.svg"
           class="about-me-image"
         />
       </a>
       <span>OR</span>
-      <a
-        href="https://discord.gg/7HsqmvrqKG"
-        target="_blank"
-        rel="noreferrer noopener"
-        class="about-me-link1"
-      >
-        <img
-          src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/logo/discordlogo.png"
-          alt="image"
-          loading="lazy"
-          class="about-me-image1"
-        />
-      </a>
+      <img
+        alt="image"
+        src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/logo/discordlogo.png"
+        loading="lazy"
+        class="about-me-image1"
+      />
     </div>
   </div>
 </template>
@@ -121,11 +114,11 @@ export default {
 
   data() {
     return {
-      rawblds: ' ',
-      raw4wuc: ' ',
-      rawv52l: ' ',
-      raw8st3: ' ',
-      raw8ctq: ' ',
+      rawn634: ' ',
+      rawhr6u: ' ',
+      rawcrpk: ' ',
+      raw05oe: ' ',
+      raw1c37: ' ',
     }
   },
 
@@ -145,6 +138,11 @@ export default {
         property: 'og:description',
         content:
           'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },
@@ -195,12 +193,8 @@ export default {
   object-fit: cover;
   text-decoration: none;
 }
-.about-me-link1 {
-  display: contents;
-}
 .about-me-image1 {
   width: 80px;
   object-fit: cover;
-  text-decoration: none;
 }
 </style>

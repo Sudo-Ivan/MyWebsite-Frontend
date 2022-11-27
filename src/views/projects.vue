@@ -1,6 +1,9 @@
 <template>
   <div class="projects-container">
     <app-navbar rootClassName="navbar-root-class-name"></app-navbar>
+    <h1 class="projects-text">
+      Sorry this page is being redesigned with a new blazing fast system.
+    </h1>
   </div>
 </template>
 
@@ -29,6 +32,11 @@ export default {
         content:
           'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
       },
+      {
+        property: 'og:image',
+        content:
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
+      },
     ],
   },
 }
@@ -43,5 +51,22 @@ export default {
   align-items: center;
   flex-direction: column;
   background-color: #000000;
+}
+.projects-text {
+  margin-top: var(--dl-space-space-sixunits);
+}
+@media(max-width: 1600px) {
+  .projects-text {
+    width: 50%;
+    height: 103px;
+    margin-top: var(--dl-space-space-fourunits);
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .projects-text {
+    width: 289px;
+    height: 241px;
+  }
 }
 </style>

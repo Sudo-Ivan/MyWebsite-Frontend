@@ -44,14 +44,14 @@
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay01.svg"
             loading="lazy"
-            class="home-image01"
+            class="home-image1"
           />
         </div>
-        <div class="home-image02">
+        <div class="home-image2">
           <img
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay.svg"
-            class="home-image03"
+            class="home-image3"
           />
         </div>
       </div>
@@ -86,11 +86,11 @@
             </p>
           </main>
         </div>
-        <div class="home-image04">
+        <div class="home-image4">
           <img
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/CodeBlocks1.svg"
-            class="home-image05"
+            class="home-image5"
           />
         </div>
       </div>
@@ -98,53 +98,59 @@
     <section id="aboutme" class="home-aboutme">
       <header class="home-header01">
         <span class="section-head">BUT...</span>
-        <h2 class="home-text17">Who am I?</h2>
+        <h2 class="home-whoami">Who am I?</h2>
       </header>
       <section class="home-note1">
         <div class="home-content02">
           <div class="home-main2">
             <div class="home-heading2">
-              <h2 class="home-heading3 section-heading">About Me</h2>
+              <h2 class="home-aboutme1 section-heading">About Me</h2>
+              <img
+                alt="image"
+                src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png"
+                loading="lazy"
+                class="home-selfie"
+              />
               <p class="home-paragraph1 section-description">
-                <span class="home-text18">
+                <span class="home-text17">
                   I am Ivan Ryan, the founder and CEO of Voltaic Hosting, an
                   international provider of sustainable, secure, and private
                   hosting solutions.
-                  <span v-html="rawp2d5"></span>
+                  <span v-html="raw5l23"></span>
                 </span>
+                <br class="home-text18" />
                 <br class="home-text19" />
-                <br class="home-text20" />
-                <span class="home-text21">
+                <span class="home-text20">
                   I am a for hire developer that specializes in developing a
                   multitude of applications that offer exceptional scalability,
                   performance, security, and privacy. While being fully compliant
                   with the standards and regulations in Europe and United States.
-                  <span v-html="rawi0gh"></span>
+                  <span v-html="raw6c1v"></span>
                 </span>
+                <br class="home-text21" />
                 <br class="home-text22" />
-                <br class="home-text23" />
-                <span class="home-text24">
+                <span class="home-text23">
                   I have held a number of professional certifications, including
                   Red Hat Certified Systems Engineer and Linux Foundation
                   Certified System Engineer. I am working on a degree in
                   Intelligence Studies at American Military University.
                 </span>
+                <br class="home-text24" />
                 <br class="home-text25" />
-                <br class="home-text26" />
-                <span class="home-text27">
+                <span class="home-text26">
                   My goal is to help organizations and individuals by developing
                   secure, reliable, and compliant software. I am able to remote
                   code and work with the following IDEs and Code Editors: Visual
                   Studio Code, Eclipse, IntelliJ IDEA and Sublime Text.
                 </span>
+                <br class="home-text27" />
                 <br class="home-text28" />
-                <br class="home-text29" />
                 <router-link to="/about-me" class="home-navlink">
                   You can read more about me here
                 </router-link>
-                <br class="home-text30" />
+                <br class="home-text29" />
                 <br />
-                <span><span v-html="raw423t"></span></span>
+                <span><span v-html="rawuw5r"></span></span>
               </p>
             </div>
           </div>
@@ -153,11 +159,13 @@
       <section class="home-note2">
         <div class="home-content03">
           <main class="home-main3">
-            <span class="section-head">MAYBE YOU Are Interested in</span>
-            <main class="home-heading4">
+            <span class="home-section2 section-head">
+              MAYBE YOU Are Interested in
+            </span>
+            <main class="home-heading3">
               <header class="home-header02">
                 <h2 class="section-heading">What I can do?</h2>
-                <p class="section-description">
+                <p class="home-paragraph2 section-description">
                   <span>
                     You will find most of my projects on GitHub, you can also
                     reach out to me to request a sample project of your choice.
@@ -173,19 +181,8 @@
             </main>
           </main>
           <div class="home-hireme button">
-            <span class="home-text35">Hire Me</span>
+            <span class="home-text34">Hire Me</span>
           </div>
-          <div class="home-hireme1 button">
-            <span class="home-text36">
-              <span>Portfolio</span>
-              <br />
-            </span>
-          </div>
-          <img
-            alt="image"
-            src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/panelshowcase/paneldesign01.png"
-            class="home-image06"
-          />
         </div>
       </section>
     </section>
@@ -206,7 +203,7 @@
           <img
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/comptia-logo.png"
-            class="home-image07"
+            class="home-image6"
           />
           <main class="home-content04">
             <h1 class="home-header04">CompTIA</h1>
@@ -218,7 +215,7 @@
           <img
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/linux-foundation-logo.png"
-            class="home-image08"
+            class="home-image7"
           />
           <main class="home-content05">
             <h1 class="home-header05">Linux Foundation</h1>
@@ -230,7 +227,7 @@
           <img
             alt="image"
             src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/redhat-logo.png"
-            class="home-image09"
+            class="home-image8"
           />
           <main class="home-content06">
             <h1 class="home-header06">Red Hat</h1>
@@ -243,7 +240,7 @@
     <section id="blog" class="home-blog">
       <span class="section-head">OH AND ONE MORE THING</span>
       <header class="home-header07">
-        <h2 class="home-heading7 section-heading">Check out my Blog</h2>
+        <h2 class="home-heading6 section-heading">Check out my Blog</h2>
       </header>
       <main class="home-cards1">
         <section class="home-card3">
@@ -264,7 +261,7 @@
                 rel="noreferrer noopener"
                 class="home-link1"
               >
-                <p class="home-text39">Read -&gt;</p>
+                <p class="home-text35">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -285,7 +282,7 @@
                 rel="noreferrer noopener"
                 class="home-link2"
               >
-                <p class="home-text40">Read -&gt;</p>
+                <p class="home-text36">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -297,7 +294,7 @@
             </header>
             <p class="home-description5">
               Updates, Security patches and Monitoring. Not all tasks should be
-              automated. 
+              automated. Learn the proper way
             </p>
             <div class="home-button2">
               <a
@@ -306,7 +303,7 @@
                 rel="noreferrer noopener"
                 class="home-link3"
               >
-                <p class="home-text41">Read -&gt;</p>
+                <p class="home-text37">Read -&gt;</p>
               </a>
             </div>
           </main>
@@ -324,14 +321,11 @@
                   src="https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png"
                   class="home-branding"
                 />
-                <span class="home-text42">A Ivan Ryan Website</span>
+                <span class="home-text38">A Ivan Ryan Website</span>
               </div>
             </header>
             <header class="home-categories">
               <div class="home-category">
-                <div class="home-header15">
-                  <span class="footer-header">Draft Site Map</span>
-                </div>
                 <div class="home-links">
                   <span class="footer-link">Privacy Policy</span>
                   <span class="footer-link">Terms of Service</span>
@@ -344,7 +338,7 @@
                     href="https://github.com/Sudo-Ivan"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="home-text50 footer-link"
+                    class="home-text45 footer-link"
                   >
                     GitHub
                   </a>
@@ -354,14 +348,11 @@
           </div>
         </main>
         <main class="home-subscribe">
-          <main class="home-main5"><h1 class="home-heading8">RSS Feed</h1></main>
+          <main class="home-main5"><h1 class="home-heading7">RSS Feed</h1></main>
         </main>
-        <section class="home-copyright">
-          <span class="home-text51">© 2022 latitude. All Rights Reserved.</span>
-        </section>
       </div>
-      <section class="home-copyright1">
-        <span class="home-text52">
+      <section class="home-copyright">
+        <span class="home-text46">
           <span>Website Last Updated November 2022 </span>
           <br />
           <span>Made with Rust + WASM + VueJS</span>
@@ -390,9 +381,9 @@ export default {
 
   data() {
     return {
-      rawp2d5: ' ',
-      rawi0gh: ' ',
-      raw423t: ' ',
+      raw5l23: ' ',
+      raw6c1v: ' ',
+      rawuw5r: ' ',
     }
   },
 
@@ -412,6 +403,11 @@ export default {
         property: 'og:description',
         content:
           'I am a freelance software engineer and current founder and CEO of Voltaic hosting. My main interests are web development, operating systems and productivity tools. This is my personal website which showcases a collection of projects that I have worked on over the years.',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },
@@ -545,11 +541,11 @@ export default {
   justify-content: space-between;
   background-color: rgba(47, 47, 47, 0);
 }
-.home-image01 {
+.home-image1 {
   width: 100%;
   object-fit: cover;
 }
-.home-image02 {
+.home-image2 {
   display: none;
 }
 .home-codesecureprotect {
@@ -654,17 +650,18 @@ export default {
 }
 .home-paragraph {
   color: #ffffff;
+  text-align: center;
   font-family: Poppins;
   line-height: 28px;
 }
-.home-image04 {
+.home-image4 {
   flex: 1;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.home-image05 {
+.home-image5 {
   width: 511px;
   height: 554px;
   object-fit: cover;
@@ -691,7 +688,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-text17 {
+.home-whoami {
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-style: normal;
@@ -731,8 +728,13 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-heading3 {
+.home-aboutme1 {
   align-self: center;
+}
+.home-selfie {
+  width: 100px;
+  align-self: center;
+  object-fit: cover;
 }
 .home-paragraph1 {
   color: rgb(255, 255, 255);
@@ -756,7 +758,7 @@ export default {
   display: flex;
   position: relative;
   max-width: 80%;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -767,7 +769,11 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-heading4 {
+.home-section2 {
+  align-self: center;
+  text-align: center;
+}
+.home-heading3 {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
@@ -779,12 +785,17 @@ export default {
 .home-header02 {
   gap: var(--dl-space-space-unit);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
+.home-paragraph2 {
+  align-self: center;
+  text-align: center;
+}
 .home-checkmarks {
   gap: var(--dl-space-space-unit);
+  width: 584px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -797,40 +808,13 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-success-300);
 }
-.home-text35 {
+.home-text34 {
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500;
   line-height: 24px;
-}
-.home-hireme1 {
-  top: 363px;
-  left: 143px;
-  height: 48px;
-  display: flex;
-  position: absolute;
-  align-self: flex-end;
-  align-items: center;
-  justify-content: center;
-  background-color: #2a2a2a;
-}
-.home-text36 {
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  font-style: normal;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 24px;
-}
-.home-image06 {
-  width: 70%;
-  height: 70%;
-  align-self: center;
-  object-fit: cover;
-  border-color: var(--dl-color-gray-500);
-  border-width: 1px;
 }
 .home-certs {
   gap: var(--dl-space-space-fiveunits);
@@ -872,6 +856,7 @@ export default {
   justify-content: center;
 }
 .home-paragraph3 {
+  color: #ffffff;
   width: 100%;
   max-width: 480px;
 }
@@ -896,7 +881,7 @@ export default {
   justify-content: flex-start;
   background-color: #292929;
 }
-.home-image07 {
+.home-image6 {
   width: 100px;
   object-fit: cover;
 }
@@ -932,7 +917,7 @@ export default {
   justify-content: flex-start;
   background-color: #292929;
 }
-.home-image08 {
+.home-image7 {
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -969,7 +954,7 @@ export default {
   justify-content: flex-start;
   background-color: #292929;
 }
-.home-image09 {
+.home-image8 {
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -1018,7 +1003,7 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-heading7 {
+.home-heading6 {
   text-align: center;
 }
 .home-cards1 {
@@ -1064,7 +1049,7 @@ export default {
   line-height: 36px;
 }
 .home-description3 {
-  color: rgb(194, 198, 204);
+  color: #ffffff;
   font-family: Poppins;
   line-height: 28px;
 }
@@ -1086,7 +1071,7 @@ export default {
 .home-link1 {
   display: contents;
 }
-.home-text39 {
+.home-text35 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1128,7 +1113,7 @@ export default {
   line-height: 36px;
 }
 .home-description4 {
-  color: rgb(194, 198, 204);
+  color: #ffffff;
   font-family: Poppins;
   line-height: 28px;
 }
@@ -1150,7 +1135,7 @@ export default {
 .home-link2 {
   display: contents;
 }
-.home-text40 {
+.home-text36 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1191,7 +1176,7 @@ export default {
   line-height: 36px;
 }
 .home-description5 {
-  color: rgb(194, 198, 204);
+  color: #ffffff;
   font-family: Poppins;
   line-height: 28px;
 }
@@ -1213,7 +1198,7 @@ export default {
 .home-link3 {
   display: contents;
 }
-.home-text41 {
+.home-text37 {
   color: #80FF44;
   font-style: normal;
   font-weight: 500;
@@ -1275,7 +1260,7 @@ export default {
   width: 120px;
   object-fit: cover;
 }
-.home-text42 {
+.home-text38 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 14px;
@@ -1298,13 +1283,6 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
-.home-header15 {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
 .home-links {
   gap: var(--dl-space-space-unit);
   width: 100%;
@@ -1313,7 +1291,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text50 {
+.home-text45 {
   text-decoration: none;
 }
 .home-subscribe {
@@ -1331,7 +1309,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-heading8 {
+.home-heading7 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   max-width: 275px;
@@ -1344,28 +1322,12 @@ export default {
   gap: var(--dl-space-space-fiveunits);
   flex: 1;
   width: 100%;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.home-text51 {
-  color: #C4C4C4;
-  width: 100%;
-  font-size: 14px;
-  font-family: Poppins;
-  line-height: 21px;
-}
-.home-copyright1 {
-  gap: var(--dl-space-space-fiveunits);
-  flex: 1;
-  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-text52 {
+.home-text46 {
   color: rgb(196, 196, 196);
   width: 100%;
   font-size: 14px;
@@ -1384,6 +1346,9 @@ export default {
     justify-content: center;
   }
   .home-paragraph1 {
+    color: #ffffff;
+  }
+  .home-text17 {
     color: #ffffff;
   }
   .home-text18 {
@@ -1419,16 +1384,19 @@ export default {
   .home-text28 {
     color: #ffffff;
   }
-  .home-text29 {
-    color: #ffffff;
-  }
   .home-navlink {
     text-decoration: underline;
   }
-  .home-text30 {
+  .home-text29 {
     color: #ffffff;
   }
-  .home-image09 {
+  .home-paragraph2 {
+    color: #ffffff;
+  }
+  .home-paragraph3 {
+    color: #ffffff;
+  }
+  .home-image8 {
     width: 107px;
     height: 116px;
   }
@@ -1506,13 +1474,13 @@ export default {
     position: absolute;
     flex-direction: column;
   }
-  .home-image02 {
+  .home-image2 {
     width: 100%;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
   }
-  .home-image03 {
+  .home-image3 {
     width: 600px;
   }
   .home-text08 {
@@ -1528,7 +1496,7 @@ export default {
   .home-main1 {
     align-items: flex-start;
   }
-  .home-text17 {
+  .home-whoami {
     text-align: center;
   }
   .home-certs {
@@ -1544,7 +1512,18 @@ export default {
   }
   .home-cards {
     gap: var(--dl-space-space-oneandhalfunits);
+    align-items: center;
     flex-direction: column;
+    justify-content: center;
+  }
+  .home-card {
+    width: 40%;
+  }
+  .home-card1 {
+    width: 40%;
+  }
+  .home-card2 {
+    width: 40%;
   }
   .home-cards1 {
     gap: var(--dl-space-space-halfunit);
@@ -1555,28 +1534,61 @@ export default {
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .home-description3 {
+    color: #ffffff;
+  }
   .home-card4 {
+    height: auto;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .home-description4 {
+    color: #ffffff;
+  }
   .home-card5 {
+    height: auto;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-description5 {
+    color: #ffffff;
+    font-family: Poppins;
+    line-height: 28px;
+  }
+  .home-footer {
+    align-self: center;
   }
   .home-content10 {
     gap: var(--dl-space-space-threeunits);
+    max-width: 100%;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .home-copyright {
-    display: flex;
+  .home-main-content {
+    width: 100%;
   }
-  .home-copyright1 {
+  .home-content11 {
+    width: 100%;
+    justify-content: center;
+  }
+  .home-header14 {
+    align-self: center;
+    align-items: center;
+  }
+  .home-branding {
+    align-self: flex-start;
+  }
+  .home-links {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-copyright {
     display: none;
   }
 }
@@ -1610,7 +1622,7 @@ export default {
   .home-github {
     display: none;
   }
-  .home-image03 {
+  .home-image3 {
     width: 500px;
   }
   .home-codesecureprotect {
@@ -1668,7 +1680,7 @@ export default {
     gap: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-text17 {
+  .home-whoami {
     font-size: 32px;
     text-align: center;
   }
@@ -1710,16 +1722,15 @@ export default {
   .home-text01 {
     max-width: 280px;
   }
-  .home-image03 {
+  .home-image3 {
     width: 400px;
   }
-  .home-image05 {
+  .home-image5 {
     width: 100%;
     display: none;
   }
-  .home-hireme1 {
-    top: 392px;
-    left: 145px;
+  .home-checkmarks {
+    width: 100%;
   }
   .home-card {
     width: 80%;
@@ -1727,12 +1738,21 @@ export default {
   .home-card1 {
     width: 80%;
   }
-  .home-image08 {
+  .home-image7 {
     width: 80px;
     height: 80px;
   }
   .home-card2 {
     width: 80%;
+  }
+  .home-content10 {
+    align-items: center;
+  }
+  .home-category {
+    align-self: center;
+  }
+  .home-links {
+    align-items: center;
   }
 }
 </style>
