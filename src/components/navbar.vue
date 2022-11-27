@@ -55,7 +55,7 @@ export default {
     image_src1: {
       type: String,
       default:
-        'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
+        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
     },
     image_src: {
       type: String,
