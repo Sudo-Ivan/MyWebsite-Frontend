@@ -7,7 +7,7 @@
           <main class="home-main">
             <header class="home-header">
               <h1 class="home-heading">
-                <span class="home-text">I am a </span>
+                <span class="home-text">I am a</span>
                 <span class="home-text01">Software Engineer</span>
                 <br />
               </h1>
@@ -116,7 +116,7 @@
                   I am Ivan Ryan, the founder and CEO of Voltaic Hosting, an
                   international provider of sustainable, secure, and private
                   hosting solutions.
-                  <span v-html="rawq48u"></span>
+                  <span v-html="raw5l23"></span>
                 </span>
                 <br class="home-text18" />
                 <br class="home-text19" />
@@ -125,7 +125,7 @@
                   multitude of applications that offer exceptional scalability,
                   performance, security, and privacy. While being fully compliant
                   with the standards and regulations in Europe and United States.
-                  <span v-html="raw5s9w"></span>
+                  <span v-html="raw6c1v"></span>
                 </span>
                 <br class="home-text21" />
                 <br class="home-text22" />
@@ -150,7 +150,7 @@
                 </router-link>
                 <br class="home-text29" />
                 <br />
-                <span><span v-html="rawulbn"></span></span>
+                <span><span v-html="rawuw5r"></span></span>
               </p>
             </div>
           </div>
@@ -381,9 +381,9 @@ export default {
 
   data() {
     return {
-      rawq48u: ' ',
-      raw5s9w: ' ',
-      rawulbn: ' ',
+      raw5l23: ' ',
+      raw6c1v: ' ',
+      rawuw5r: ' ',
     }
   },
 
@@ -650,6 +650,7 @@ export default {
 }
 .home-paragraph {
   color: #ffffff;
+  text-align: center;
   font-family: Poppins;
   line-height: 28px;
 }
@@ -855,7 +856,7 @@ export default {
   justify-content: center;
 }
 .home-paragraph3 {
-  color: var(--dl-color-gray-700);
+  color: #ffffff;
   width: 100%;
   max-width: 480px;
 }
@@ -1048,7 +1049,7 @@ export default {
   line-height: 36px;
 }
 .home-description3 {
-  color: rgb(194, 198, 204);
+  color: #ffffff;
   font-family: Poppins;
   line-height: 28px;
 }
@@ -1112,7 +1113,7 @@ export default {
   line-height: 36px;
 }
 .home-description4 {
-  color: rgb(194, 198, 204);
+  color: #ffffff;
   font-family: Poppins;
   line-height: 28px;
 }
@@ -1175,7 +1176,7 @@ export default {
   line-height: 36px;
 }
 .home-description5 {
-  color: rgb(194, 198, 204);
+  color: #ffffff;
   font-family: Poppins;
   line-height: 28px;
 }
