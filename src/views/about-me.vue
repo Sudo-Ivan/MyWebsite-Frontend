@@ -25,14 +25,6 @@
         <br />
         <br />
         <span>
-          I currently serve in the US Army. I was a former infantryman (says with
-          a prideful voice lol) and now work as an MQ-1 Operator stationed out of
-          Fort Hood, Texas.
-          <span v-html="rawif1x"></span>
-        </span>
-        <br />
-        <br />
-        <span>
           During my free time I work as a freelance software engineer, mostly
           designing server admin panels and server software for small hosting
           companies.
