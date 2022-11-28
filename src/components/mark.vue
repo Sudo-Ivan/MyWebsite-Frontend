@@ -15,7 +15,7 @@ export default {
   props: {
     Label: {
       type: String,
-      default: 'Secure Code Design',
+      default: 'Penetration Testing',
     },
   },
 }

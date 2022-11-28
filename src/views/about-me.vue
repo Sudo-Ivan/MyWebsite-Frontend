@@ -6,7 +6,7 @@
       <span class="about-me-text01">
         <span>
           Alright here goes...
-          <span v-html="raw5ll3"></span>
+          <span v-html="rawvnui"></span>
         </span>
         <br />
         <br />
@@ -22,13 +22,14 @@
           to look for a better life in the United States. Ten years later, here I
           am trying to start a company out of Texas.
         </span>
+        <span><span v-html="rawnz9s"></span></span>
         <br />
         <br />
         <span>
           During my free time I work as a freelance software engineer, mostly
           designing server admin panels and server software for small hosting
           companies.
-          <span v-html="rawl7bb"></span>
+          <span v-html="raw7hs2"></span>
         </span>
         <br />
         <br />
@@ -47,7 +48,7 @@
         </span>
         <br />
         <br />
-        <span><span v-html="rawnhgz"></span></span>
+        <span><span v-html="rawsseu"></span></span>
         <span>
           I have experiance using many hosting companies and I can say that they
           all lack either security, privacy and a good fucking panel with a UI
@@ -64,33 +65,12 @@
         <br />
         <span>
           Thank you for coming to my TED talk
-          <span v-html="rawb279"></span>
+          <span v-html="rawuubc"></span>
         </span>
         <br />
         <br />
         <span>Join my Revolt or Discord or both!</span>
       </span>
-    </div>
-    <div class="about-me-container2">
-      <a
-        href="https://rvlt.gg/HH22HNCw"
-        target="_blank"
-        rel="noreferrer noopener"
-        class="about-me-link"
-      >
-        <img
-          alt="image"
-          src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/logo/revolt-logo.svg"
-          class="about-me-image"
-        />
-      </a>
-      <span>OR</span>
-      <img
-        alt="image"
-        src="https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/logo/discordlogo.png"
-        loading="lazy"
-        class="about-me-image1"
-      />
     </div>
   </div>
 </template>
@@ -106,11 +86,11 @@ export default {
 
   data() {
     return {
-      raw5ll3: ' ',
-      rawif1x: ' ',
-      rawl7bb: ' ',
-      rawnhgz: ' ',
-      rawb279: ' ',
+      rawvnui: ' ',
+      rawnz9s: ' ',
+      raw7hs2: ' ',
+      rawsseu: ' ',
+      rawuubc: ' ',
     }
   },
 
@@ -165,28 +145,5 @@ export default {
   margin-top: var(--dl-space-space-threeunits);
   text-align: center;
   margin-bottom: var(--dl-space-space-fiveunits);
-}
-.about-me-container2 {
-  flex: 0 0 auto;
-  width: 220px;
-  height: auto;
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-fiveunits);
-  justify-content: space-between;
-}
-.about-me-link {
-  display: contents;
-}
-.about-me-image {
-  width: 80px;
-  align-self: center;
-  object-fit: cover;
-  text-decoration: none;
-}
-.about-me-image1 {
-  width: 80px;
-  object-fit: cover;
 }
 </style>
