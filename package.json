@@ -9,8 +9,7 @@
   "dependencies": {
     "vue": "^2.6.7",
     "vue-meta": "^2.2.1",
-    "vue-router": "^3.0.2",
-    "dangerous-html": "^0.1.11"
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
