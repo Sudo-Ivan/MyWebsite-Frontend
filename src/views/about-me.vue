@@ -114,7 +114,7 @@ export default {
       {
         property: 'og:image',
         content:
-          'https://link.opengraphimage.com/3lzTVyGS9Y9tA10WvHH-NA/?s=1592593d175f10c352fa99c4548304fa',
+          'https://cdn.opengraphimage.com/3lzTVyGS9Y9tA10WvHH-NA/?s=1592593d175f10c352fa99c4548304fa',
       },
     ],
   },
