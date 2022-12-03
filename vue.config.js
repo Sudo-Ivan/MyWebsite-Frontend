@@ -8,6 +8,15 @@ module.exports = {
       },
     },
   },
+
+  devServer: {
+    headers: {
+      "X-XSS-Protection": "1; mode=block",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+      "Content-Security-Policy-Report-Only": "default-src 'self';"
+    }
+  },
+
   chainWebpack: config => {
     config.plugin('copy').tap(args => {
       const UNESCAPED_GLOB_SYMBOLS_RE = /(\\?)([()*?[\]{|}]|^!|[!+@](?=\())/g;
