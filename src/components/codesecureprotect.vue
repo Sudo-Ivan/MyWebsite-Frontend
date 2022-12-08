@@ -16,7 +16,35 @@
         <p class="codesecureprotect-text06">{{ text2 }}</p>
       </header>
     </div>
-    <div class="codesecureprotect-note">
+    <div data-thq="thq-dropdown" class="codesecureprotect-thq-dropdown list-item">
+      <ul data-thq="thq-dropdown-list" class="codesecureprotect-dropdown-list">
+        <li data-thq="thq-dropdown" class="codesecureprotect-dropdown list-item">
+          <div
+            data-thq="thq-dropdown-toggle"
+            class="codesecureprotect-dropdown-toggle"
+          >
+            <span class="codesecureprotect-text07">Sub-menu Item</span>
+          </div>
+        </li>
+        <li data-thq="thq-dropdown" class="codesecureprotect-dropdown1 list-item">
+          <div
+            data-thq="thq-dropdown-toggle"
+            class="codesecureprotect-dropdown-toggle1"
+          >
+            <span class="codesecureprotect-text08">Sub-menu Item</span>
+          </div>
+        </li>
+        <li data-thq="thq-dropdown" class="codesecureprotect-dropdown2 list-item">
+          <div
+            data-thq="thq-dropdown-toggle"
+            class="codesecureprotect-dropdown-toggle2"
+          >
+            <span class="codesecureprotect-text09">Sub-menu Item</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="note" class="codesecureprotect-note">
       <div class="codesecureprotect-content">
         <main class="codesecureprotect-main">
           <h2 class="codesecureprotect-heading">{{ Heading }}</h2>
@@ -46,17 +74,13 @@
 export default {
   name: 'Codesecureprotect',
   props: {
-    Section: {
+    Heading: {
       type: String,
-      default: 'AND A',
+      default: 'Pick the right tool for the job',
     },
-    heading: {
+    heading3: {
       type: String,
-      default: 'Privacy and Security Enthusiast',
-    },
-    heading1: {
-      type: String,
-      default: 'Code',
+      default: 'Protect',
     },
     text: {
       type: String,
@@ -66,31 +90,42 @@ export default {
       type: String,
       default: 'Secure',
     },
-    text1: {
+    Section: {
       type: String,
-      default: 'By Default',
+      default: 'AND A',
     },
-    heading3: {
+    heading: {
       type: String,
-      default: 'Protect',
-    },
-    text2: {
-      type: String,
-      default: 'The People',
+      default: 'Privacy and Security Enthusiast',
     },
     image_src: {
       type: String,
       default:
         'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/CodeBlocks1.svg',
     },
+    heading1: {
+      type: String,
+      default: 'Code',
+    },
+    text2: {
+      type: String,
+      default: 'The People',
+    },
     image_alt: {
       type: String,
       default: 'image',
     },
-    Heading: {
+    text1: {
       type: String,
-      default: 'Pick the right tool for the job',
+      default: 'By Default',
     },
+  },
+
+  data() {
+    return {
+      isVisible: false,
+      note: true,
+    }
   },
 }
 </script>
@@ -165,6 +200,125 @@ export default {
 .codesecureprotect-text06 {
   color: rgb(121, 124, 128);
   font-family: Poppins;
+}
+.codesecureprotect-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.codesecureprotect-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.codesecureprotect-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.codesecureprotect-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.codesecureprotect-dropdown-toggle:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.codesecureprotect-text07 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.codesecureprotect-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.codesecureprotect-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.codesecureprotect-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.codesecureprotect-text08 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.codesecureprotect-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.codesecureprotect-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.codesecureprotect-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.codesecureprotect-text09 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
 }
 .codesecureprotect-note {
   gap: 140px;

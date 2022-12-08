@@ -5,7 +5,7 @@
         <main class="firstsection-main">
           <header class="firstsection-header">
             <h1 class="firstsection-heading">
-              <span class="firstsection-text">I am a </span>
+              <span class="firstsection-text">I am a</span>
               <span class="firstsection-text1">Software Engineer</span>
               <br />
             </h1>
@@ -54,35 +54,35 @@
 export default {
   name: 'Firstsection',
   props: {
-    image_src: {
+    Caption: {
       type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/terminal-overlay.png',
-    },
-    image_alt: {
-      type: String,
-      default: 'image',
-    },
-    image_src1: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/terminal-overlay.png',
+      default: 'Building Secure, Private, and Efficient applications. ',
     },
     image_alt1: {
       type: String,
       default: 'image',
     },
-    Caption: {
+    Text1: {
       type: String,
-      default: 'Building Secure, Private, and Efficient applications. ',
+      default: 'Portfolio',
+    },
+    image_alt: {
+      type: String,
+      default: 'image',
+    },
+    image_src: {
+      type: String,
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay01.svg',
     },
     Text: {
       type: String,
       default: 'My Projects',
     },
-    Text1: {
+    image_src1: {
       type: String,
-      default: 'Portfolio',
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay.svg',
     },
   },
 }

@@ -18,7 +18,7 @@
             <p class="aboutme-paragraph section-description">
               <span class="aboutme-text">
                 I am Ivan Ryan, the founder and CEO of
-                <span v-html="rawnegg"></span>
+                <span v-html="rawdxos"></span>
               </span>
               <a
                 href="https://voltaic.host"
@@ -30,42 +30,45 @@
               </a>
               <span class="aboutme-text01">
                 , a international provider of sustainable, secure, and private
-                hosting solutions.
-                <span v-html="rawlqwh"></span>
+                hosting solutions. We are working on architecture that make data
+                centers more efficient and secure.
               </span>
               <br class="aboutme-text02" />
               <br class="aboutme-text03" />
               <span class="aboutme-text04">
-                I also work as a for hire developer that specializes in developing
-                a multitude of applications that offer exceptional scalability,
+                I also work as a for hire developer that specializes in creating a
+                multitude of applications that offer exceptional scalability,
                 performance, security, and privacy. While being fully compliant
                 with the standards and regulations in Europe and United States.
-                <span v-html="raw1ujx"></span>
+                <span v-html="rawn4c7"></span>
               </span>
               <br class="aboutme-text05" />
               <br class="aboutme-text06" />
               <span class="aboutme-text07">
                 I maintain a number of professional certifications, including Red
                 Hat Certified Systems Engineer and Linux Foundation Certified
-                System Engineer. I am working on a degree in Intelligence Studies
-                at American Military University.
+                System Engineer and many more you can find
+                <span v-html="rawukui"></span>
               </span>
+              <router-link to="/portfolio" class="aboutme-navlink">
+                here
+              </router-link>
               <br class="aboutme-text08" />
               <br class="aboutme-text09" />
               <span class="aboutme-text10">
                 My goal is to help organizations and individuals by developing
                 secure, reliable, and compliant software. I am able to remote code
                 and work with the following IDEs and Code Editors: NeoVim, Helix,
-                Visual Studio Code, Eclipse, IntelliJ IDEA and Sublime Text.
+                Visual Studio Code, IntelliJ IDEA and Sublime Text.
               </span>
               <br class="aboutme-text11" />
               <br class="aboutme-text12" />
-              <router-link to="/about-me" class="aboutme-navlink">
+              <router-link to="/about-me" class="aboutme-navlink1">
                 You can read more about me here
               </router-link>
               <br class="aboutme-text13" />
               <br />
-              <span><span v-html="raw8mnm"></span></span>
+              <span><span v-html="rawj5k8"></span></span>
             </p>
           </div>
         </div>
@@ -118,26 +121,14 @@ export default {
       type: String,
       default: 'BUT...',
     },
-    whoami: {
+    selfie_src: {
       type: String,
-      default: 'Who am I?',
-    },
-    Section1: {
-      type: String,
-      default: 'MAYBE YOU Are Interested in',
-    },
-    Text: {
-      type: String,
-      default: 'Hire Me',
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
     },
     aboutme: {
       type: String,
       default: 'About Me',
-    },
-    selfie_src: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie_512x512.png',
     },
     selfie_alt: {
       type: String,
@@ -147,6 +138,18 @@ export default {
       type: String,
       default: 'What I can do?',
     },
+    Section1: {
+      type: String,
+      default: 'MAYBE YOU Are Interested in',
+    },
+    whoami: {
+      type: String,
+      default: 'Who am I?',
+    },
+    Text: {
+      type: String,
+      default: 'Hire Me',
+    },
   },
   components: {
     AppMark,
@@ -154,10 +157,10 @@ export default {
 
   data() {
     return {
-      rawnegg: ' ',
-      rawlqwh: ' ',
-      raw1ujx: ' ',
-      raw8mnm: ' ',
+      rawdxos: ' ',
+      rawn4c7: ' ',
+      rawukui: ' ',
+      rawj5k8: ' ',
     }
   },
 }
@@ -245,6 +248,9 @@ export default {
   text-decoration: underline;
 }
 .aboutme-navlink {
+  text-decoration: underline;
+}
+.aboutme-navlink1 {
   text-decoration: underline;
 }
 .aboutme-note1 {
@@ -367,6 +373,9 @@ export default {
   .aboutme-text07 {
     color: #ffffff;
   }
+  .aboutme-navlink {
+    color: #ffffff;
+  }
   .aboutme-text08 {
     color: #ffffff;
   }
@@ -382,7 +391,7 @@ export default {
   .aboutme-text12 {
     color: #ffffff;
   }
-  .aboutme-navlink {
+  .aboutme-navlink1 {
     text-decoration: underline;
   }
   .aboutme-text13 {
@@ -444,6 +453,9 @@ export default {
   .aboutme-text07 {
     color: #ffffff;
   }
+  .aboutme-navlink {
+    color: #ffffff;
+  }
   .aboutme-text08 {
     color: #ffffff;
   }
@@ -459,7 +471,7 @@ export default {
   .aboutme-text12 {
     color: #ffffff;
   }
-  .aboutme-navlink {
+  .aboutme-navlink1 {
     text-decoration: underline;
   }
   .aboutme-text13 {

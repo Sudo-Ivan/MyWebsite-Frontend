@@ -51,40 +51,40 @@
 export default {
   name: 'Footer',
   props: {
-    Branding_src: {
+    Text2: {
       type: String,
-      default:
-        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
-    },
-    Branding_alt: {
-      type: String,
-      default: 'image',
+      default: 'Terms of Service',
     },
     Text: {
       type: String,
       default: 'A Ivan Ryan Website',
     },
-    Text1: {
-      type: String,
-      default: 'Privacy Policy',
-    },
-    Text2: {
-      type: String,
-      default: 'Terms of Service',
-    },
     Text3: {
       type: String,
       default: 'Contact Me\n',
+    },
+    Branding_src: {
+      type: String,
+      default:
+        'https://cdn.statically.io/gh/ivanonpc-22/MyWebsite-Assets/main/images/logo/MyLogo_1.png',
+    },
+    Text1: {
+      type: String,
+      default: 'Privacy Policy',
     },
     Text4: {
       type: String,
       default: 'GitHub\n',
     },
+    rootClassName: String,
+    Branding_alt: {
+      type: String,
+      default: 'image',
+    },
     link_Text: {
       type: String,
       default: 'https://github.com/Sudo-Ivan',
     },
-    rootClassName: String,
   },
 }
 </script>
@@ -156,7 +156,7 @@ export default {
 }
 .footer-categories {
   gap: var(--dl-space-space-fourunits);
-  flex: 1;
+  width: 934px;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -165,6 +165,7 @@ export default {
 .footer-category {
   gap: var(--dl-space-space-unit);
   display: flex;
+  position: relative;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
@@ -173,9 +174,10 @@ export default {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-self: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .footer-text07 {
   text-decoration: none;

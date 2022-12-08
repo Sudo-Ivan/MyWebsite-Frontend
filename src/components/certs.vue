@@ -74,19 +74,11 @@
 export default {
   name: 'Certs',
   props: {
-    Section: {
+    Header: {
       type: String,
-      default: 'IF MY PROJECTS DONT SUFFICE, HERE ARE\n',
+      default: 'CompTIA',
     },
-    Heading: {
-      type: String,
-      default: 'My Certifications',
-    },
-    image_src: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/comptia-logo.png',
-    },
+    link_Text: String,
     image_alt: {
       type: String,
       default: 'image',
@@ -96,36 +88,6 @@ export default {
       default:
         'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/linux-foundation-logo.png',
     },
-    image_alt1: {
-      type: String,
-      default: 'image',
-    },
-    image_src2: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/redhat-logo.png',
-    },
-    image_alt2: {
-      type: String,
-      default: 'image',
-    },
-    Header: {
-      type: String,
-      default: 'CompTIA',
-    },
-    Description: {
-      type: String,
-      default: 'Certifications',
-    },
-    Text: {
-      type: String,
-      default: 'View',
-    },
-    link_Text: String,
-    Header1: {
-      type: String,
-      default: 'Linux Foundation',
-    },
     Description1: {
       type: String,
       default: 'Certifications',
@@ -134,20 +96,58 @@ export default {
       type: String,
       default: 'View',
     },
-    link_Text1: String,
-    Header2: {
+    Header1: {
       type: String,
-      default: 'Red Hat',
+      default: 'Linux Foundation',
     },
     Description2: {
       type: String,
       default: 'Certifications',
     },
+    image_alt1: {
+      type: String,
+      default: 'image',
+    },
+    Description: {
+      type: String,
+      default: 'Certifications',
+    },
+    Section: {
+      type: String,
+      default: 'IF MY PROJECTS DONT SUFFICE, HERE ARE\n',
+    },
     Text2: {
       type: String,
       default: 'View',
     },
+    Heading: {
+      type: String,
+      default: 'My Certifications',
+    },
+    image_alt2: {
+      type: String,
+      default: 'image',
+    },
+    link_Text1: String,
+    Text: {
+      type: String,
+      default: 'View',
+    },
     link_Text2: String,
+    Header2: {
+      type: String,
+      default: 'Red Hat',
+    },
+    image_src2: {
+      type: String,
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/redhat-logo.png',
+    },
+    image_src: {
+      type: String,
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/comptia-logo.png',
+    },
   },
 }
 </script>

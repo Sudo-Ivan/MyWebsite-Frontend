@@ -9,7 +9,7 @@
         <main class="firstsection2-main">
           <header class="firstsection2-header">
             <h1 class="firstsection2-heading">
-              <span class="firstsection2-text">I am a </span>
+              <span class="firstsection2-text">I am a</span>
               <span class="firstsection2-text1">Software Engineer</span>
               <br />
             </h1>
@@ -61,18 +61,14 @@ export default {
     image_src: {
       type: String,
       default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/terminal-overlay.png',
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay01.svg',
+    },
+    rootClassName: String,
+    Text1: {
+      type: String,
+      default: 'Portfolio',
     },
     image_alt: {
-      type: String,
-      default: 'image',
-    },
-    image_src1: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/terminal-overlay.png',
-    },
-    image_alt1: {
       type: String,
       default: 'image',
     },
@@ -84,11 +80,15 @@ export default {
       type: String,
       default: 'My Projects',
     },
-    Text1: {
+    image_alt1: {
       type: String,
-      default: 'Portfolio',
+      default: 'image',
     },
-    rootClassName: String,
+    image_src1: {
+      type: String,
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay.svg',
+    },
   },
 }
 </script>
@@ -218,7 +218,6 @@ export default {
 .firstsection2-image2 {
   display: none;
 }
-
 @media(max-width: 1600px) {
   .firstsection2-firstsection {
     border-color: rgba(81, 81, 90, 0);
@@ -389,9 +388,6 @@ export default {
   .firstsection2-image3 {
     width: 400px;
     align-self: center;
-  }
-  .firstsection2-root-class-name {
-    margin-top: var(--dl-space-space-unit);
   }
 }
 </style>

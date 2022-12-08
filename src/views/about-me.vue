@@ -6,7 +6,7 @@
       <span class="about-me-text01">
         <span>
           Alright here goes...
-          <span v-html="rawvnui"></span>
+          <span v-html="raw5dzc"></span>
         </span>
         <br />
         <br />
@@ -22,14 +22,14 @@
           to look for a better life in the United States. Ten years later, here I
           am trying to start a company out of Texas.
         </span>
-        <span><span v-html="rawnz9s"></span></span>
+        <span><span v-html="rawnb4i"></span></span>
         <br />
         <br />
         <span>
           During my free time I work as a freelance software engineer, mostly
           designing server admin panels and server software for small hosting
           companies.
-          <span v-html="raw7hs2"></span>
+          <span v-html="rawk6qd"></span>
         </span>
         <br />
         <br />
@@ -48,9 +48,9 @@
         </span>
         <br />
         <br />
-        <span><span v-html="rawsseu"></span></span>
+        <span><span v-html="rawmk1s"></span></span>
         <span>
-          I have experiance using many hosting companies and I can say that they
+          I have experience using many hosting companies and I can say that they
           all lack either security, privacy and a good fucking panel with a UI
           meant for the user not just a developer.
         </span>
@@ -65,11 +65,9 @@
         <br />
         <span>
           Thank you for coming to my TED talk
-          <span v-html="rawuubc"></span>
+          <span v-html="rawuk5g"></span>
         </span>
         <br />
-        <br />
-        <span>Join my Revolt or Discord or both!</span>
       </span>
     </div>
   </div>
@@ -86,11 +84,11 @@ export default {
 
   data() {
     return {
-      rawvnui: ' ',
-      rawnz9s: ' ',
-      raw7hs2: ' ',
-      rawsseu: ' ',
-      rawuubc: ' ',
+      raw5dzc: ' ',
+      rawnb4i: ' ',
+      rawk6qd: ' ',
+      rawmk1s: ' ',
+      rawuk5g: ' ',
     }
   },
 
@@ -114,7 +112,7 @@ export default {
       {
         property: 'og:image',
         content:
-          'https://cdn.opengraphimage.com/3lzTVyGS9Y9tA10WvHH-NA/?s=1592593d175f10c352fa99c4548304fa',
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },
