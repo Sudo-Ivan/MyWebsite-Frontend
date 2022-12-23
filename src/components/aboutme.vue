@@ -16,56 +16,41 @@
               class="aboutme-selfie"
             />
             <p class="aboutme-paragraph section-description">
-              <span class="aboutme-text">
-                I am Ivan Ryan, the founder and CEO of
-                <span v-html="rawnegg"></span>
+              <span>
+                I am Ivan Ryan, the founder and CEO of Voltaic Hosting, an
+                international provider of sustainable, secure, and private hosting
+                solutions. We are working on architecture that makes data centers
+                more efficient and secure.
               </span>
-              <a
-                href="https://voltaic.host"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="aboutme-link"
-              >
-                Voltaic Hosting
-              </a>
-              <span class="aboutme-text01">
-                , a international provider of sustainable, secure, and private
-                hosting solutions.
-                <span v-html="rawlqwh"></span>
-              </span>
-              <br class="aboutme-text02" />
-              <br class="aboutme-text03" />
-              <span class="aboutme-text04">
-                I also work as a for hire developer that specializes in developing
-                a multitude of applications that offer exceptional scalability,
-                performance, security, and privacy. While being fully compliant
-                with the standards and regulations in Europe and United States.
-                <span v-html="raw1ujx"></span>
-              </span>
-              <br class="aboutme-text05" />
-              <br class="aboutme-text06" />
-              <span class="aboutme-text07">
-                I maintain a number of professional certifications, including Red
-                Hat Certified Systems Engineer and Linux Foundation Certified
-                System Engineer. I am working on a degree in Intelligence Studies
-                at American Military University.
-              </span>
-              <br class="aboutme-text08" />
-              <br class="aboutme-text09" />
-              <span class="aboutme-text10">
-                My goal is to help organizations and individuals by developing
-                secure, reliable, and compliant software. I am able to remote code
-                and work with the following IDEs and Code Editors: NeoVim, Helix,
-                Visual Studio Code, Eclipse, IntelliJ IDEA and Sublime Text.
-              </span>
-              <br class="aboutme-text11" />
-              <br class="aboutme-text12" />
-              <router-link to="/about-me" class="aboutme-navlink">
-                You can read more about me here
-              </router-link>
-              <br class="aboutme-text13" />
               <br />
-              <span><span v-html="raw8mnm"></span></span>
+              <br />
+              <span>
+                I am also a for-hire developer specializing in creating a
+                multitude of applications that offer exceptional scalability,
+                performance, security, and privacy, while fully complying with
+                standards and regulations in Europe and the United States.
+                <span v-html="raw0jub"></span>
+              </span>
+              <br />
+              <br />
+              <span>
+                I hold a number of professional certifications, including Red Hat
+                Certified Systems Engineer and Linux Foundation Certified System
+                Engineer, among others, which you can find here.
+                <span v-html="rawky42"></span>
+              </span>
+              <br />
+              <br />
+              <span>
+                My goal is to help organizations and individuals by developing
+                secure, reliable, and compliant software. I am able to remotely
+                code and work with the following IDEs and code editors: NeoVim,
+                Helix, Visual Studio Code, IntelliJ IDEA, and Sublime Text.
+                <span v-html="rawn7i8"></span>
+              </span>
+              <br />
+              <br />
+              <span>You can read more about me here.</span>
             </p>
           </div>
         </div>
@@ -101,7 +86,7 @@
           </main>
         </main>
         <div class="aboutme-hireme button">
-          <span class="aboutme-text18">{{ Text }}</span>
+          <span class="aboutme-text15">{{ Text }}</span>
         </div>
       </div>
     </section>
@@ -118,26 +103,14 @@ export default {
       type: String,
       default: 'BUT...',
     },
-    whoami: {
+    selfie_src: {
       type: String,
-      default: 'Who am I?',
-    },
-    Section1: {
-      type: String,
-      default: 'MAYBE YOU Are Interested in',
-    },
-    Text: {
-      type: String,
-      default: 'Hire Me',
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie.png',
     },
     aboutme: {
       type: String,
       default: 'About Me',
-    },
-    selfie_src: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/ivan/selfie_512x512.png',
     },
     selfie_alt: {
       type: String,
@@ -147,6 +120,18 @@ export default {
       type: String,
       default: 'What I can do?',
     },
+    Section1: {
+      type: String,
+      default: 'MAYBE YOU Are Interested in',
+    },
+    whoami: {
+      type: String,
+      default: 'Who am I?',
+    },
+    Text: {
+      type: String,
+      default: 'Hire Me',
+    },
   },
   components: {
     AppMark,
@@ -154,10 +139,9 @@ export default {
 
   data() {
     return {
-      rawnegg: ' ',
-      rawlqwh: ' ',
-      raw1ujx: ' ',
-      raw8mnm: ' ',
+      raw0jub: ' ',
+      rawky42: ' ',
+      rawn7i8: ' ',
     }
   },
 }
@@ -241,12 +225,6 @@ export default {
   align-self: center;
   text-align: center;
 }
-.aboutme-link {
-  text-decoration: underline;
-}
-.aboutme-navlink {
-  text-decoration: underline;
-}
 .aboutme-note1 {
   width: 100%;
   display: flex;
@@ -328,7 +306,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-success-300);
 }
-.aboutme-text18 {
+.aboutme-text15 {
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -338,55 +316,7 @@ export default {
 }
 @media(max-width: 1600px) {
   .aboutme-paragraph {
-    color: #ffffff;
-  }
-  .aboutme-text {
-    color: #ffffff;
-  }
-  .aboutme-link {
-    color: #ffffff;
-  }
-  .aboutme-text01 {
-    color: #ffffff;
-  }
-  .aboutme-text02 {
-    color: #ffffff;
-  }
-  .aboutme-text03 {
-    color: #ffffff;
-  }
-  .aboutme-text04 {
-    color: #ffffff;
-  }
-  .aboutme-text05 {
-    color: #ffffff;
-  }
-  .aboutme-text06 {
-    color: #ffffff;
-  }
-  .aboutme-text07 {
-    color: #ffffff;
-  }
-  .aboutme-text08 {
-    color: #ffffff;
-  }
-  .aboutme-text09 {
-    color: #ffffff;
-  }
-  .aboutme-text10 {
-    color: #ffffff;
-  }
-  .aboutme-text11 {
-    color: #ffffff;
-  }
-  .aboutme-text12 {
-    color: #ffffff;
-  }
-  .aboutme-navlink {
-    text-decoration: underline;
-  }
-  .aboutme-text13 {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
   }
   .aboutme-paragraph1 {
     color: #ffffff;
@@ -416,54 +346,6 @@ export default {
 @media(max-width: 479px) {
   .aboutme-paragraph {
     color: rgb(255, 255, 255);
-  }
-  .aboutme-text {
-    color: #ffffff;
-  }
-  .aboutme-link {
-    color: #ffffff;
-  }
-  .aboutme-text01 {
-    color: #ffffff;
-  }
-  .aboutme-text02 {
-    color: #ffffff;
-  }
-  .aboutme-text03 {
-    color: #ffffff;
-  }
-  .aboutme-text04 {
-    color: #ffffff;
-  }
-  .aboutme-text05 {
-    color: #ffffff;
-  }
-  .aboutme-text06 {
-    color: #ffffff;
-  }
-  .aboutme-text07 {
-    color: #ffffff;
-  }
-  .aboutme-text08 {
-    color: #ffffff;
-  }
-  .aboutme-text09 {
-    color: #ffffff;
-  }
-  .aboutme-text10 {
-    color: #ffffff;
-  }
-  .aboutme-text11 {
-    color: #ffffff;
-  }
-  .aboutme-text12 {
-    color: #ffffff;
-  }
-  .aboutme-navlink {
-    text-decoration: underline;
-  }
-  .aboutme-text13 {
-    color: #ffffff;
   }
   .aboutme-checkmarks {
     width: 100%;

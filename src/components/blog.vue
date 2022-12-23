@@ -67,32 +67,22 @@
 export default {
   name: 'Blog',
   props: {
-    Section: {
+    Header2: {
       type: String,
-      default: 'OH AND ONE MORE THING',
-    },
-    Heading: {
-      type: String,
-      default: 'Check out my Blog',
-    },
-    Description: {
-      type: String,
-      default:
-        'Why pay for a premium email service when you can host your own premium email service for free.',
-    },
-    Description1: {
-      type: String,
-      default:
-        'In order to protect your servers from common attacks, it is important to understand the basics of server security.',
+      default: 'How to maintain your email server.',
     },
     Description2: {
       type: String,
       default:
         'Updates, Security patches and Monitoring. Not all tasks should be automated. Learn the proper way',
     },
-    Header: {
+    Header1: {
       type: String,
-      default: 'How to host your own secure email server.',
+      default: 'The Basics of Server Security',
+    },
+    Heading: {
+      type: String,
+      default: 'Check out my Blog',
     },
     Text: {
       type: String,
@@ -102,21 +92,14 @@ export default {
       type: String,
       default: 'https://blog.ivanryan.dev',
     },
-    Header1: {
-      type: String,
-      default: 'The Basics of Server Security',
-    },
-    Text1: {
-      type: String,
-      default: 'Read ->',
-    },
     link_Text1: {
       type: String,
       default: 'https://blog.ivanryan.dev',
     },
-    Header2: {
+    Description: {
       type: String,
-      default: 'How to maintain your email server.',
+      default:
+        'Why pay for a premium email service when you can host your own premium email service for free.',
     },
     Text2: {
       type: String,
@@ -125,6 +108,23 @@ export default {
     link_Text2: {
       type: String,
       default: 'https://blog.ivanryan.dev',
+    },
+    Header: {
+      type: String,
+      default: 'How to host your own secure email server.',
+    },
+    Section: {
+      type: String,
+      default: 'OH AND ONE MORE THING',
+    },
+    Text1: {
+      type: String,
+      default: 'Read ->',
+    },
+    Description1: {
+      type: String,
+      default:
+        'In order to protect your servers from common attacks, it is important to understand the basics of server security.',
     },
   },
 }
@@ -359,6 +359,16 @@ export default {
   text-decoration: none;
 }
 @media(max-width: 1600px) {
+  .blog-card {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 50%;
+  }
+  .blog-card1 {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 50%;
+  }
   .blog-header4 {
     color: rgb(255, 255, 255);
     font-size: 24px;
@@ -369,6 +379,11 @@ export default {
   }
   .blog-description1 {
     color: rgb(194, 198, 204);
+  }
+  .blog-card2 {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 50%;
   }
   .blog-description2 {
     color: rgb(194, 198, 204);
@@ -416,6 +431,26 @@ export default {
   .blog-cards {
     gap: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
+  }
+  .blog-card {
+    width: 100%;
+  }
+  .blog-card1 {
+    width: 100%;
+  }
+  .blog-card2 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .blog-card {
+    width: 100%;
+  }
+  .blog-card1 {
+    width: 100%;
+  }
+  .blog-card2 {
+    width: 100%;
   }
 }
 </style>

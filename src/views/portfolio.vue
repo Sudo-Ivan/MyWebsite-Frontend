@@ -50,13 +50,15 @@ export default {
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #000000;
+  background-color: #0F0F0F;
 }
 .portfolio-text {
+  color: #ffffff;
   margin-top: var(--dl-space-space-sixunits);
 }
 @media(max-width: 1600px) {
   .portfolio-text {
+    color: #ffffff;
     width: 50%;
     height: 103px;
     margin-top: var(--dl-space-space-fourunits);

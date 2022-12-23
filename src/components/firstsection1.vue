@@ -5,7 +5,7 @@
         <main class="firstsection1-main">
           <header class="firstsection1-header">
             <h1 class="firstsection1-heading">
-              <span class="firstsection1-text">I am a </span>
+              <span class="firstsection1-text">I am a</span>
               <span class="firstsection1-text1">Software Engineer</span>
               <br />
             </h1>
@@ -54,27 +54,23 @@
 export default {
   name: 'Firstsection1',
   props: {
-    image_src: {
-      type: String,
-      default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/terminal-overlay.png',
-    },
-    image_alt: {
+    image_alt1: {
       type: String,
       default: 'image',
     },
     image_src1: {
       type: String,
       default:
-        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/png/terminal-overlay.png',
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay.svg',
     },
-    image_alt1: {
+    image_src: {
+      type: String,
+      default:
+        'https://cdn.statically.io/gh/Sudo-Ivan/MyWebsite-Assets/main/images/website/images/svg/terminal-overlay01.svg',
+    },
+    image_alt: {
       type: String,
       default: 'image',
-    },
-    Caption: {
-      type: String,
-      default: 'Building Secure, Private, and Efficient applications. ',
     },
     Text: {
       type: String,
@@ -83,6 +79,10 @@ export default {
     Text1: {
       type: String,
       default: 'Portfolio',
+    },
+    Caption: {
+      type: String,
+      default: 'Building Secure, Private, and Efficient applications. ',
     },
   },
 }

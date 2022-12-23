@@ -197,6 +197,8 @@ export default {
 
 
 
+
+
 @media(max-width: 1600px) {
   .navbar-link {
     text-decoration: none;

@@ -7,13 +7,15 @@
         <div class="security-feature-card">
           <div class="security-container2">
             <h2 class="security-text1">Pentesting</h2>
-            <span>I pentest my own website using my own home made toolkit.</span>
+            <span class="security-text2">
+              I pentest my own website using my own home made toolkit.
+            </span>
           </div>
         </div>
         <div class="security-feature-card1">
           <div class="security-container3">
             <h2 class="security-text3">SSL</h2>
-            <span>
+            <span class="security-text4">
               n SSL certificate (also known as a TLS or SSL/TLS certificate) is a
               digital document that binds the identity of a website to a
               cryptographic key pair consisting of a public key and a private key.
@@ -23,13 +25,15 @@
         <div class="security-feature-card2">
           <div class="security-container4">
             <h2 class="security-text5">Snyk</h2>
-            <span>We use snyk to monitor our code and packages</span>
+            <span class="security-text6">
+              We use snyk to monitor our code and packages
+            </span>
           </div>
         </div>
         <div class="security-feature-card3">
           <div class="security-container5">
             <h2 class="security-text7">DNSSEC</h2>
-            <span>
+            <span class="security-text8">
               DNSSEC strengthens authentication in DNS using digital signatures
               based on public key cryptography.
             </span>
@@ -68,7 +72,7 @@ export default {
       {
         property: 'og:image',
         content:
-          'https://cdn.opengraphimage.com/3lzTVyGS9Y9tA10WvHH-NA/?s=1592593d175f10c352fa99c4548304fa',
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },
@@ -83,7 +87,7 @@ export default {
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #000000;
+  background-color: #0F0F0F;
 }
 .security-features {
   width: 100%;
@@ -93,6 +97,7 @@ export default {
   flex-direction: column;
 }
 .security-text {
+  color: #ffffff;
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-threeunits);
 }
@@ -118,8 +123,12 @@ export default {
   justify-content: flex-start;
 }
 .security-text1 {
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+}
+.security-text2 {
+  color: #ffffff;
 }
 .security-feature-card1 {
   width: 100%;
@@ -137,8 +146,12 @@ export default {
   justify-content: flex-start;
 }
 .security-text3 {
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+}
+.security-text4 {
+  color: #ffffff;
 }
 .security-feature-card2 {
   width: 100%;
@@ -156,8 +169,12 @@ export default {
   justify-content: flex-start;
 }
 .security-text5 {
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+}
+.security-text6 {
+  color: #ffffff;
 }
 .security-feature-card3 {
   width: 100%;
@@ -175,8 +192,17 @@ export default {
   justify-content: flex-start;
 }
 .security-text7 {
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+}
+.security-text8 {
+  color: #ffffff;
+}
+@media(max-width: 1600px) {
+  .security-text {
+    color: #ffffff;
+  }
 }
 @media(max-width: 767px) {
   .security-features {

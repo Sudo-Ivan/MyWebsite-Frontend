@@ -9,6 +9,7 @@ import HireMe from './views/hire-me'
 import Security from './views/security'
 import Home from './views/home'
 import Projects from './views/projects'
+import PrivacyPolicy from './views/privacy-policy'
 import './style.css'
 
 Vue.use(Router)
@@ -50,6 +51,11 @@ export default new Router({
       name: 'Projects',
       path: '/projects',
       component: Projects,
+    },
+    {
+      name: 'PrivacyPolicy',
+      path: '/privacy-policy',
+      component: PrivacyPolicy,
     },
   ],
 })
