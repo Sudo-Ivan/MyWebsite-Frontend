@@ -4,7 +4,7 @@
     <span class="home-w-i-p">
       <span>
         Hello! my website is currently being re-designed from the ground up.
-        <span v-html="rawceip"></span>
+        <span v-html="raw7lij"></span>
       </span>
       <br />
       <span>You can still reach me at ivan@ivanryan.dev</span>
@@ -16,7 +16,7 @@
           <main class="home-main">
             <header class="home-header">
               <h1 class="home-heading">
-                <span class="home-text04">I am a </span>
+                <span class="home-text04">I am a</span>
                 <span class="home-text05">Software Engineer</span>
                 <br />
               </h1>
@@ -94,17 +94,20 @@
             <h2 class="home-heading1">Secure and Private by Design</h2>
             <p class="home-paragraph">
               <span>
-                The proper programming language for the job is important it ensure
-                that you setup yourself for success when creating a secure
-                program. But you also have to think about the user and their
-                privacy.
+                The proper programming language for the job is important in
+                ensuring that you set yourself up for success when creating a
+                secure program. But you also have to think about the user and
+                their privacy.
+                <span v-html="rawkund"></span>
               </span>
               <br />
               <br />
               <span>
-                This will impact your scalability, performance, security and
-                privacy. Because after all, the more secure it is the more
-                inconvenient it is for the user.
+                This will impact your scalability, performance, security, and
+                privacy. Because after all, the more secure a program is, the more
+                inconvenient it may be for the user to use. It&apos;s a balance
+                between security and convenience, and it&apos;s important to find
+                the right balance for your specific needs.
               </span>
               <br />
             </p>
@@ -145,7 +148,8 @@ export default {
 
   data() {
     return {
-      rawceip: ' ',
+      raw7lij: ' ',
+      rawkund: ' ',
     }
   },
 
@@ -169,7 +173,7 @@ export default {
       {
         property: 'og:image',
         content:
-          'https://cdn.opengraphimage.com/3lzTVyGS9Y9tA10WvHH-NA/?s=1592593d175f10c352fa99c4548304fa',
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },

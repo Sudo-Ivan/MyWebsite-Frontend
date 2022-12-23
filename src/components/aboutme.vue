@@ -16,59 +16,41 @@
               class="aboutme-selfie"
             />
             <p class="aboutme-paragraph section-description">
-              <span class="aboutme-text">
-                I am Ivan Ryan, the founder and CEO of
-                <span v-html="rawdxos"></span>
+              <span>
+                I am Ivan Ryan, the founder and CEO of Voltaic Hosting, an
+                international provider of sustainable, secure, and private hosting
+                solutions. We are working on architecture that makes data centers
+                more efficient and secure.
               </span>
-              <a
-                href="https://voltaic.host"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="aboutme-link"
-              >
-                Voltaic Hosting
-              </a>
-              <span class="aboutme-text01">
-                , a international provider of sustainable, secure, and private
-                hosting solutions. We are working on architecture that make data
-                centers more efficient and secure.
-              </span>
-              <br class="aboutme-text02" />
-              <br class="aboutme-text03" />
-              <span class="aboutme-text04">
-                I also work as a for hire developer that specializes in creating a
-                multitude of applications that offer exceptional scalability,
-                performance, security, and privacy. While being fully compliant
-                with the standards and regulations in Europe and United States.
-                <span v-html="rawn4c7"></span>
-              </span>
-              <br class="aboutme-text05" />
-              <br class="aboutme-text06" />
-              <span class="aboutme-text07">
-                I maintain a number of professional certifications, including Red
-                Hat Certified Systems Engineer and Linux Foundation Certified
-                System Engineer and many more you can find
-                <span v-html="rawukui"></span>
-              </span>
-              <router-link to="/portfolio" class="aboutme-navlink">
-                here
-              </router-link>
-              <br class="aboutme-text08" />
-              <br class="aboutme-text09" />
-              <span class="aboutme-text10">
-                My goal is to help organizations and individuals by developing
-                secure, reliable, and compliant software. I am able to remote code
-                and work with the following IDEs and Code Editors: NeoVim, Helix,
-                Visual Studio Code, IntelliJ IDEA and Sublime Text.
-              </span>
-              <br class="aboutme-text11" />
-              <br class="aboutme-text12" />
-              <router-link to="/about-me" class="aboutme-navlink1">
-                You can read more about me here
-              </router-link>
-              <br class="aboutme-text13" />
               <br />
-              <span><span v-html="rawj5k8"></span></span>
+              <br />
+              <span>
+                I am also a for-hire developer specializing in creating a
+                multitude of applications that offer exceptional scalability,
+                performance, security, and privacy, while fully complying with
+                standards and regulations in Europe and the United States.
+                <span v-html="raw0jub"></span>
+              </span>
+              <br />
+              <br />
+              <span>
+                I hold a number of professional certifications, including Red Hat
+                Certified Systems Engineer and Linux Foundation Certified System
+                Engineer, among others, which you can find here.
+                <span v-html="rawky42"></span>
+              </span>
+              <br />
+              <br />
+              <span>
+                My goal is to help organizations and individuals by developing
+                secure, reliable, and compliant software. I am able to remotely
+                code and work with the following IDEs and code editors: NeoVim,
+                Helix, Visual Studio Code, IntelliJ IDEA, and Sublime Text.
+                <span v-html="rawn7i8"></span>
+              </span>
+              <br />
+              <br />
+              <span>You can read more about me here.</span>
             </p>
           </div>
         </div>
@@ -104,7 +86,7 @@
           </main>
         </main>
         <div class="aboutme-hireme button">
-          <span class="aboutme-text18">{{ Text }}</span>
+          <span class="aboutme-text15">{{ Text }}</span>
         </div>
       </div>
     </section>
@@ -157,10 +139,9 @@ export default {
 
   data() {
     return {
-      rawdxos: ' ',
-      rawn4c7: ' ',
-      rawukui: ' ',
-      rawj5k8: ' ',
+      raw0jub: ' ',
+      rawky42: ' ',
+      rawn7i8: ' ',
     }
   },
 }
@@ -244,15 +225,6 @@ export default {
   align-self: center;
   text-align: center;
 }
-.aboutme-link {
-  text-decoration: underline;
-}
-.aboutme-navlink {
-  text-decoration: underline;
-}
-.aboutme-navlink1 {
-  text-decoration: underline;
-}
 .aboutme-note1 {
   width: 100%;
   display: flex;
@@ -334,7 +306,7 @@ export default {
   justify-content: center;
   background-color: var(--dl-color-success-300);
 }
-.aboutme-text18 {
+.aboutme-text15 {
   color: #ffffff;
   font-size: 16px;
   font-style: normal;
@@ -344,58 +316,7 @@ export default {
 }
 @media(max-width: 1600px) {
   .aboutme-paragraph {
-    color: #ffffff;
-  }
-  .aboutme-text {
-    color: #ffffff;
-  }
-  .aboutme-link {
-    color: #ffffff;
-  }
-  .aboutme-text01 {
-    color: #ffffff;
-  }
-  .aboutme-text02 {
-    color: #ffffff;
-  }
-  .aboutme-text03 {
-    color: #ffffff;
-  }
-  .aboutme-text04 {
-    color: #ffffff;
-  }
-  .aboutme-text05 {
-    color: #ffffff;
-  }
-  .aboutme-text06 {
-    color: #ffffff;
-  }
-  .aboutme-text07 {
-    color: #ffffff;
-  }
-  .aboutme-navlink {
-    color: #ffffff;
-  }
-  .aboutme-text08 {
-    color: #ffffff;
-  }
-  .aboutme-text09 {
-    color: #ffffff;
-  }
-  .aboutme-text10 {
-    color: #ffffff;
-  }
-  .aboutme-text11 {
-    color: #ffffff;
-  }
-  .aboutme-text12 {
-    color: #ffffff;
-  }
-  .aboutme-navlink1 {
-    text-decoration: underline;
-  }
-  .aboutme-text13 {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
   }
   .aboutme-paragraph1 {
     color: #ffffff;
@@ -425,57 +346,6 @@ export default {
 @media(max-width: 479px) {
   .aboutme-paragraph {
     color: rgb(255, 255, 255);
-  }
-  .aboutme-text {
-    color: #ffffff;
-  }
-  .aboutme-link {
-    color: #ffffff;
-  }
-  .aboutme-text01 {
-    color: #ffffff;
-  }
-  .aboutme-text02 {
-    color: #ffffff;
-  }
-  .aboutme-text03 {
-    color: #ffffff;
-  }
-  .aboutme-text04 {
-    color: #ffffff;
-  }
-  .aboutme-text05 {
-    color: #ffffff;
-  }
-  .aboutme-text06 {
-    color: #ffffff;
-  }
-  .aboutme-text07 {
-    color: #ffffff;
-  }
-  .aboutme-navlink {
-    color: #ffffff;
-  }
-  .aboutme-text08 {
-    color: #ffffff;
-  }
-  .aboutme-text09 {
-    color: #ffffff;
-  }
-  .aboutme-text10 {
-    color: #ffffff;
-  }
-  .aboutme-text11 {
-    color: #ffffff;
-  }
-  .aboutme-text12 {
-    color: #ffffff;
-  }
-  .aboutme-navlink1 {
-    text-decoration: underline;
-  }
-  .aboutme-text13 {
-    color: #ffffff;
   }
   .aboutme-checkmarks {
     width: 100%;

@@ -2,11 +2,11 @@
   <div class="about-me-container">
     <app-navbar rootClassName="navbar-root-class-name"></app-navbar>
     <div class="about-me-container1">
-      <h1>Want to know more about me?</h1>
+      <h1 class="about-me-text">Want to know more about me?</h1>
       <span class="about-me-text01">
         <span>
           Alright here goes...
-          <span v-html="raw5dzc"></span>
+          <span v-html="raw56ld"></span>
         </span>
         <br />
         <br />
@@ -16,20 +16,11 @@
         </span>
         <br />
         <br />
-        <br />
-        <span>
-          I grew up in Gauteng, South Africa. When I turned 12 my parents decided
-          to look for a better life in the United States. Ten years later, here I
-          am trying to start a company out of Texas.
-        </span>
-        <span><span v-html="rawnb4i"></span></span>
-        <br />
-        <br />
         <span>
           During my free time I work as a freelance software engineer, mostly
           designing server admin panels and server software for small hosting
           companies.
-          <span v-html="rawk6qd"></span>
+          <span v-html="raw7oav"></span>
         </span>
         <br />
         <br />
@@ -48,7 +39,7 @@
         </span>
         <br />
         <br />
-        <span><span v-html="rawmk1s"></span></span>
+        <span><span v-html="rawsf4h"></span></span>
         <span>
           I have experience using many hosting companies and I can say that they
           all lack either security, privacy and a good fucking panel with a UI
@@ -60,12 +51,6 @@
           Now my goal is to create a hosting company that actually cares about
           your privacy, your security, the environment and to make a panel that is
           actually good.
-        </span>
-        <br />
-        <br />
-        <span>
-          Thank you for coming to my TED talk
-          <span v-html="rawuk5g"></span>
         </span>
         <br />
       </span>
@@ -84,11 +69,9 @@ export default {
 
   data() {
     return {
-      raw5dzc: ' ',
-      rawnb4i: ' ',
-      rawk6qd: ' ',
-      rawmk1s: ' ',
-      rawuk5g: ' ',
+      raw56ld: ' ',
+      raw7oav: ' ',
+      rawsf4h: ' ',
     }
   },
 
@@ -112,7 +95,7 @@ export default {
       {
         property: 'og:image',
         content:
-          'https://cdn.opengraphimage.com/3lzTVyGS9Y9tA10WvHH-NA/?s=1592593d175f10c352fa99c4548304fa',
+          'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d5db3d8d-896c-4432-adf9-a9c05a2ff362/52d8462e-a143-486c-8202-7b857426b144?org_if_sml=1',
       },
     ],
   },
@@ -138,10 +121,22 @@ export default {
   flex-direction: column;
   justify-content: center;
 }
+.about-me-text {
+  color: #ffffff;
+}
 .about-me-text01 {
+  color: rgb(255, 255, 255);
   width: 50%;
   margin-top: var(--dl-space-space-threeunits);
   text-align: center;
   margin-bottom: var(--dl-space-space-fiveunits);
+}
+@media(max-width: 1600px) {
+  .about-me-text {
+    color: #ffffff;
+  }
+  .about-me-text01 {
+    color: #ffffff;
+  }
 }
 </style>
