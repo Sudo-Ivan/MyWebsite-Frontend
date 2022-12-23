@@ -412,6 +412,15 @@ export default {
   .certs-left {
     gap: var(--dl-space-space-unit);
   }
+  .certs-card {
+    width: 100%;
+  }
+  .certs-card1 {
+    width: 100%;
+  }
+  .certs-card2 {
+    width: 100%;
+  }
 }
 @media(max-width: 479px) {
   .certs-card {

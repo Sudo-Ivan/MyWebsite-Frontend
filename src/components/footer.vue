@@ -16,7 +16,12 @@
           <header class="footer-categories">
             <div class="footer-category">
               <div class="footer-links">
-                <span class="footer-link">{{ Text1 }}</span>
+                <router-link
+                  to="/privacy-policy"
+                  class="footer-text01 footer-link"
+                >
+                  {{ Text1 }}
+                </router-link>
                 <span class="footer-link">{{ Text2 }}</span>
                 <span class="footer-link">
                   <span>Security</span>
@@ -178,6 +183,9 @@ export default {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.footer-text01 {
+  text-decoration: none;
 }
 .footer-text07 {
   text-decoration: none;

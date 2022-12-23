@@ -359,6 +359,16 @@ export default {
   text-decoration: none;
 }
 @media(max-width: 1600px) {
+  .blog-card {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 50%;
+  }
+  .blog-card1 {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 50%;
+  }
   .blog-header4 {
     color: rgb(255, 255, 255);
     font-size: 24px;
@@ -369,6 +379,11 @@ export default {
   }
   .blog-description1 {
     color: rgb(194, 198, 204);
+  }
+  .blog-card2 {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 50%;
   }
   .blog-description2 {
     color: rgb(194, 198, 204);
@@ -416,6 +431,26 @@ export default {
   .blog-cards {
     gap: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
+  }
+  .blog-card {
+    width: 100%;
+  }
+  .blog-card1 {
+    width: 100%;
+  }
+  .blog-card2 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .blog-card {
+    width: 100%;
+  }
+  .blog-card1 {
+    width: 100%;
+  }
+  .blog-card2 {
+    width: 100%;
   }
 }
 </style>
